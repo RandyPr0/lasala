@@ -33,7 +33,9 @@ input:focus{border-color:var(--rojo)}
 .tapa{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding-bottom:70px;background:radial-gradient(circle at 50% 40%,rgba(122,31,61,.35),rgba(27,33,64,.75))}
 .tapa b{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:140px;line-height:1;color:var(--dorado);text-shadow:0 0 30px rgba(224,168,46,.55)}
 .tapa span{font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:13px;color:var(--texto)}
-.foto.visible .tapa{display:none}
+.foto.visible .tapa,.foto.visible .marca{display:none}
+.marca{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;overflow:hidden}
+.marca span{transform:rotate(-35deg);font-family:Anton,Impact,sans-serif;font-size:64px;letter-spacing:.06em;color:rgba(255,255,255,.28);white-space:nowrap;text-shadow:0 2px 10px rgba(0,0,0,.4)}
 .foto.revelar{animation:voltear .9s ease-out}
 .foto.revelar::after{content:"";position:absolute;inset:0;background:#fff;pointer-events:none;animation:destello .9s ease-out forwards}
 @keyframes voltear{0%{transform:perspective(900px) rotateY(90deg)}60%{transform:perspective(900px) rotateY(-8deg)}100%{transform:none}}
@@ -64,7 +66,7 @@ a{color:var(--dorado)}
 <main>
   <h1>La sala de Randy <span>Busca tu muñeco</span></h1>
 
-  <ol class="pasos"><li>Toca <b>Escuchar en Spotify</b></li><li>Escúchala completa en la app</li><li>Vuelve aquí: tu muñeco aparece a los 50 s y se descarga al terminar</li></ol>
+  <ol class="pasos"><li>Toca <b>Escuchar en Spotify</b></li><li>Escúchala completa en la app</li><li>Vuelve aquí: tu muñeco termina de cargar al acabar la canción</li></ol>
 
   <div class="buscar">
     <input id="q" type="search" placeholder="Escribe tu @" autocomplete="off" autocapitalize="none" spellcheck="false" enterkeyhint="search" aria-label="Escribe tu @">
@@ -76,6 +78,7 @@ a{color:var(--dorado)}
     <div class="foto" id="foto">
       <canvas id="lienzo" width="720" height="900"></canvas>
       <div class="tapa"><b>?</b><span>Muñeco oculto</span></div>
+      <div class="marca"><span>CARGANDO…</span></div>
       <div class="barra">
         <p id="pct">Descargando tu muñeco… 0 %</p>
         <div class="pista"><div id="relleno"></div></div>
@@ -97,12 +100,13 @@ a{color:var(--dorado)}
     </div>
   </section>
 
-  <footer>Vibras · Randy Pro</footer>
+  <footer>Vibras · Randy Pro · v5</footer>
 </main>
 
 <script>
 const SPOTIFY = 'spotify:track:3QVuWcj9IBHdYk8bWMayr9';
-const NITIDA = 50, META = 165, SALTO = 2;
+// ponytail: duración de la canción (165 s) + 4 s; la foto nítida y la descarga llegan juntas
+const META = 169, NITIDA = META, SALTO = 2;
 const local = ['localhost', '127.0.0.1', '[::1]'].includes(location.hostname);
 const PRUEBA = local && new URLSearchParams(location.search).get('prueba') === '1';
 const VEL = PRUEBA ? 10 : 1;
@@ -180,17 +184,17 @@ function elegir(u) {
   pintar();
 }
 
-// --- muñeco se aclara por capas; cara y @ nítidos solo a los 50 s ---
+// --- oculto hasta 140 s, se aclara pixelado de 140 a 165 s, nítido a los 169 s ---
 const lienzo = $('lienzo'), ctx = lienzo.getContext('2d');
 const chico = document.createElement('canvas'), cctx = chico.getContext('2d');
 function pintar() {
-  const t = total(), ver = t >= NITIDA, foto = $('foto'), p = Math.min(1, t / NITIDA);
+  const t = total(), ver = t >= NITIDA, foto = $('foto'), p = Math.min(1, Math.max(0, (t - 140) / 25));
   if (img && img.complete && img.naturalWidth) {
     if (ver) {
       ctx.imageSmoothingEnabled = true;
       ctx.drawImage(img, 0, 0, 720, 900);
     } else {
-      // ponytail: como mucho 30 bloques de ancho + desenfoque: no se lee el @ antes de los 50 s
+      // ponytail: como mucho 30 bloques de ancho + desenfoque: no se lee el @ antes de META
       const w = Math.round(12 + 18 * p), h = Math.round(w * 1.25);
       chico.width = w; chico.height = h;
       cctx.drawImage(img, 0, 0, w, h);
@@ -204,7 +208,7 @@ function pintar() {
     foto.classList.add('visible');
     if (img && img.complete) { foto.classList.remove('revelar'); void foto.offsetWidth; foto.classList.add('revelar'); }
   }
-  $('cuenta').textContent = ver ? '' : `Tu muñeco aparece en ${Math.ceil((NITIDA - t) / VEL)}s`;
+  $('cuenta').textContent = ver ? '' : `Tu muñeco termina de cargar en ${Math.ceil((META - t) / VEL)}s`;
   const pct = Math.min(100, Math.floor(t / META * 100));
   $('pct').textContent = pct >= 100 ? 'Tu muñeco está listo · 100 %' : `Descargando tu muñeco… ${pct} %`;
   $('relleno').style.width = pct + '%';
