@@ -28,7 +28,7 @@ input:focus{border-color:var(--rojo)}
 .oculto{display:none!important}
 #zona{margin-top:20px}
 .foto{position:relative;border-radius:16px;overflow:hidden;border:3px solid var(--dorado);background:#000;aspect-ratio:4/5}
-.foto canvas{display:block;width:100%;height:100%;filter:blur(16px) brightness(.45) saturate(.6);transform:scale(1.08)}
+.foto canvas{display:block;width:100%;height:100%;transform:scale(1.08);transition:filter .6s linear}
 .foto.visible canvas{filter:none;transform:none}
 .tapa{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding-bottom:70px;background:radial-gradient(circle at 50% 40%,rgba(122,31,61,.35),rgba(27,33,64,.75))}
 .tapa b{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:140px;line-height:1;color:var(--dorado);text-shadow:0 0 30px rgba(224,168,46,.55)}
@@ -43,8 +43,12 @@ input:focus{border-color:var(--rojo)}
 .barra p{margin:0 0 6px;font-weight:600;font-size:15px}
 .pista{height:10px;border-radius:6px;background:#2a2f52;overflow:hidden}
 .pista div{height:100%;width:0;background:linear-gradient(90deg,var(--rojo),var(--dorado));transition:width .3s}
-.sesion{background:rgba(29,185,84,.12);border-color:#1DB954;margin:0 0 12px}
-.boton{display:block;margin-top:10px;text-align:center;padding:12px;border-radius:999px;background:#1DB954;color:#0b0b0b;font-weight:700;text-decoration:none}
+.boton{display:block;text-align:center;border-radius:999px;background:#1DB954;color:#0b0b0b;font-weight:800;text-decoration:none}
+.boton.grande{margin-top:16px;padding:18px 12px;font-size:21px;box-shadow:0 6px 24px rgba(29,185,84,.35)}
+.otra{margin:18px 0 8px;color:var(--suave);font-size:14px;text-align:center}
+.pasos{margin:0 0 16px;padding:12px 16px 12px 34px;border-radius:12px;background:rgba(224,168,46,.1);border:1px solid rgba(224,168,46,.5);font-size:14.5px}
+.pasos li{margin:2px 0}
+.nota{margin:10px 0 0;text-align:center;font-size:14.5px;color:var(--texto)}
 #sp-caja{min-height:152px}
 #vista{margin-top:12px}
 .descargar{width:100%;margin-top:16px;font-family:Anton,Impact,sans-serif;font-size:22px;letter-spacing:.03em;padding:14px;border-radius:14px;border:0;background:var(--dorado);color:var(--marino);cursor:pointer}
@@ -59,6 +63,8 @@ a{color:var(--dorado)}
 <body>
 <main>
   <h1>La sala de Randy <span>Busca tu muñeco</span></h1>
+
+  <ol class="pasos"><li>Toca <b>Escuchar en Spotify</b></li><li>Escúchala completa en la app</li><li>Vuelve aquí: tu muñeco aparece a los 50 s y se descarga al terminar</li></ol>
 
   <div class="buscar">
     <input id="q" type="search" placeholder="Escribe tu @" autocomplete="off" autocapitalize="none" spellcheck="false" enterkeyhint="search" aria-label="Escribe tu @">
@@ -77,9 +83,9 @@ a{color:var(--dorado)}
       </div>
     </div>
 
-    <p style="margin:16px 0 8px">Escucha <b>Vibras</b> de Randy Pro para que tu muñeco termine de descargar:</p>
-    <p class="aviso sesion">Inicia sesión en Spotify para escucharla completa y que tu play cuente
-      <a class="boton" href="https://open.spotify.com/" target="_blank" rel="noopener">Iniciar sesión en Spotify</a></p>
+    <a id="escuchar" class="boton grande" href="https://open.spotify.com/track/3QVuWcj9IBHdYk8bWMayr9" target="_blank" rel="noopener">🎧 Escuchar en Spotify</a>
+    <p class="nota">Dale play en Spotify y vuelve aquí: tu muñeco se va cargando mientras suena 🎧</p>
+    <p class="otra">o escúchala aquí:</p>
     <div id="sp-caja"><div id="sp"></div></div>
     <p id="vista" class="aviso oculto">Estás escuchando solo la vista previa: inicia sesión en Spotify para desbloquear tu foto</p>
     <p id="prueba" class="prueba oculto"></p>
@@ -96,7 +102,7 @@ a{color:var(--dorado)}
 
 <script>
 const SPOTIFY = 'spotify:track:3QVuWcj9IBHdYk8bWMayr9';
-const NITIDA = 50, MARGEN = 3, SALTO = 2;
+const NITIDA = 50, META = 165, SALTO = 2;
 const local = ['localhost', '127.0.0.1', '[::1]'].includes(location.hostname);
 const PRUEBA = local && new URLSearchParams(location.search).get('prueba') === '1';
 const VEL = PRUEBA ? 10 : 1;
@@ -107,10 +113,18 @@ let usuarios = [], usuario = null, img = null;
 let oido = 0, dur = 165;
 const ultimo = {};
 
-const guardar = () => { try { localStorage.setItem('lasala:' + usuario, JSON.stringify({ s: oido, d: dur })); } catch (e) {} };
+let inicio = 0; // hora (ms) en que tocó "Escuchar en Spotify" por primera vez
+// cronómetro desde la hora guardada (sigue aunque la página se duerma) o lo oído aquí, lo que sea mayor
+const total = () => Math.max(oido, inicio ? (Date.now() - inicio) / 1000 * VEL : 0);
+const guardar = () => { try { localStorage.setItem('lasala:' + usuario, JSON.stringify({ s: oido, d: dur, i: inicio })); localStorage.setItem('lasala:ultimo', usuario); } catch (e) {} };
 const cargar = u => { try { return JSON.parse(localStorage.getItem('lasala:' + u)) || {}; } catch (e) { return {}; } };
 
-fetch('fotos.json').then(r => r.json()).then(l => { usuarios = l; });
+fetch('fotos.json').then(r => r.json()).then(l => {
+  usuarios = l;
+  let u = null;
+  try { u = localStorage.getItem('lasala:ultimo'); } catch (e) {}
+  if (u && usuarios.includes(u)) elegir(u);
+});
 
 // --- búsqueda ---
 const q = $('q'), sug = $('sug');
@@ -153,6 +167,7 @@ function elegir(u) {
   $('noesta').classList.add('oculto');
   const g = cargar(u);
   oido = g.s || 0;
+  inicio = g.i || 0;
   if (g.d) dur = g.d;
   for (const k in ultimo) delete ultimo[k];
   $('foto').classList.remove('visible', 'revelar');
@@ -165,35 +180,39 @@ function elegir(u) {
   pintar();
 }
 
-// --- muñeco oculto hasta los 50 s, luego se revela de golpe ---
+// --- muñeco se aclara por capas; cara y @ nítidos solo a los 50 s ---
 const lienzo = $('lienzo'), ctx = lienzo.getContext('2d');
 const chico = document.createElement('canvas'), cctx = chico.getContext('2d');
 function pintar() {
-  const ver = oido >= NITIDA, foto = $('foto');
+  const t = total(), ver = t >= NITIDA, foto = $('foto'), p = Math.min(1, t / NITIDA);
   if (img && img.complete && img.naturalWidth) {
     if (ver) {
       ctx.imageSmoothingEnabled = true;
       ctx.drawImage(img, 0, 0, 720, 900);
     } else {
-      chico.width = 12; chico.height = 15;
-      cctx.drawImage(img, 0, 0, 12, 15);
+      // ponytail: como mucho 30 bloques de ancho + desenfoque: no se lee el @ antes de los 50 s
+      const w = Math.round(12 + 18 * p), h = Math.round(w * 1.25);
+      chico.width = w; chico.height = h;
+      cctx.drawImage(img, 0, 0, w, h);
       ctx.imageSmoothingEnabled = false;
-      ctx.drawImage(chico, 0, 0, 12, 15, 0, 0, 720, 900);
+      ctx.drawImage(chico, 0, 0, w, h, 0, 0, 720, 900);
     }
   }
+  lienzo.style.filter = ver ? 'none' : `blur(${(16 - 10 * p).toFixed(1)}px) brightness(${(.45 + .4 * p).toFixed(2)}) saturate(${(.6 + .3 * p).toFixed(2)})`;
+  document.querySelector('.tapa').style.opacity = (1 - p).toFixed(2);
   if (ver && !foto.classList.contains('visible')) {
     foto.classList.add('visible');
     if (img && img.complete) { foto.classList.remove('revelar'); void foto.offsetWidth; foto.classList.add('revelar'); }
   }
-  $('cuenta').textContent = ver ? '' : `Tu muñeco aparece en ${Math.ceil((NITIDA - oido) / VEL)}s`;
-  const pct = Math.min(100, Math.floor(oido / dur * 100));
+  $('cuenta').textContent = ver ? '' : `Tu muñeco aparece en ${Math.ceil((NITIDA - t) / VEL)}s`;
+  const pct = Math.min(100, Math.floor(t / META * 100));
   $('pct').textContent = pct >= 100 ? 'Tu muñeco está listo · 100 %' : `Descargando tu muñeco… ${pct} %`;
   $('relleno').style.width = pct + '%';
-  const listo = oido >= dur - MARGEN;
+  const listo = t >= META;
   const b = $('desc');
   b.disabled = !listo;
   b.textContent = listo ? 'Descargar mi foto' : 'Se desbloquea al terminar la canción';
-  if (PRUEBA) $('prueba').textContent = `Modo prueba ×${VEL} · escuchado ${oido.toFixed(1)} s de ${dur} s`;
+  if (PRUEBA) $('prueba').textContent = `Modo prueba ×${VEL} · escuchado ${t.toFixed(1)} s de ${META} s`;
 }
 
 // --- conteo de segundos escuchados de verdad ---
@@ -222,7 +241,8 @@ function cargarSpotify() {
   if (spPedido) return;
   spPedido = true;
   if (PRUEBA) {
-    // simula Spotify sonando: ?prueba=1&vista=1 simula la vista previa de 30 s
+    // ?prueba=1&embed=1 simula el reproductor de aquí; &vista=1 la vista previa de 30 s
+    if (new URLSearchParams(location.search).get('embed') !== '1') return;
     const d = new URLSearchParams(location.search).get('vista') === '1' ? 30 : 165;
     let pos = 0;
     setInterval(() => { pos = (pos + 0.25) % d; oir('sp', pos, d, true); }, 250);
@@ -242,9 +262,19 @@ window.onSpotifyIframeApiReady = api => {
   });
 };
 
+// --- cronómetro de la app de Spotify ---
+$('escuchar').addEventListener('click', e => {
+  if (!usuario) return;
+  if (!inicio) { inicio = Date.now(); guardar(); }
+  if (PRUEBA) e.preventDefault(); // en prueba no abre Spotify; el cronómetro corre ×10
+});
+setInterval(() => { if (usuario && inicio && document.visibilityState === 'visible') pintar(); }, 250);
+document.addEventListener('visibilitychange', () => { if (usuario) pintar(); });
+addEventListener('pagehide', () => { if (usuario) guardar(); });
+
 // --- descarga con marco y franja ---
 $('desc').onclick = async () => {
-  if (!img || oido < dur - MARGEN) return;
+  if (!img || total() < META) return;
   try { await document.fonts.load('56px Anton'); } catch (e) {}
   const W = 800, M = 40, H = M + 900 + 150;
   const c = document.createElement('canvas'); c.width = W; c.height = H;
