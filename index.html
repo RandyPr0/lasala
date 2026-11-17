@@ -50,6 +50,7 @@ input:focus{border-color:var(--rojo)}
 .otra{margin:18px 0 8px;color:var(--suave);font-size:14px;text-align:center}
 .pasos{margin:0 0 16px;padding:12px 16px 12px 34px;border-radius:12px;background:rgba(224,168,46,.1);border:1px solid rgba(224,168,46,.5);font-size:14.5px}
 .pasos li{margin:2px 0}
+.otro{width:100%;margin-top:14px;font:inherit;font-weight:700;font-size:17px;padding:14px;border-radius:14px;border:2px solid var(--dorado);background:transparent;color:var(--dorado);cursor:pointer}
 .nota{margin:10px 0 0;text-align:center;font-size:14.5px;color:var(--texto)}
 #sp-caja{min-height:152px}
 #vista{margin-top:12px}
@@ -98,9 +99,9 @@ a{color:var(--dorado)}
       <img id="final-img" alt="Tu muñeco de La sala de Randy">
       <p class="reto">Súbela a tus historias con el audio de la canción, una carita de risa 😂 y etiqueta a @randy.pro para repostearte</p>
     </div>
+    <button id="otro" class="otro" type="button">🔎 Buscar otro @</button>
   </section>
-
-  <footer>Vibras · Randy Pro · v5</footer>
+  <footer>Vibras · Randy Pro · v6</footer>
 </main>
 
 <script>
@@ -127,7 +128,11 @@ fetch('fotos.json').then(r => r.json()).then(l => {
   usuarios = l;
   let u = null;
   try { u = localStorage.getItem('lasala:ultimo'); } catch (e) {}
-  if (u && usuarios.includes(u)) elegir(u);
+  // solo se reabre si la carga quedó a medias (volver de Spotify); si terminó, arranca limpia
+  if (u && usuarios.includes(u)) {
+    const g = cargar(u), t = Math.max(g.s || 0, g.i ? (Date.now() - g.i) / 1000 * VEL : 0);
+    if ((g.i || g.s) && t < META) elegir(u);
+  }
 });
 
 // --- búsqueda ---
@@ -144,7 +149,18 @@ function sugerir() {
   sug.innerHTML = lista.map(u => `<li role="option" data-u="${u}">@${u}</li>`).join('');
   if (!lista.length) $('noesta').classList.remove('oculto');
 }
-q.addEventListener('input', sugerir);
+q.addEventListener('input', () => { if (usuario && q.value !== '@' + usuario) limpiar(false); sugerir(); });
+
+function limpiar(enfocar = true) {
+  usuario = null; img = null;
+  $('zona').classList.add('oculto');
+  $('final').classList.add('oculto');
+  $('final-img').removeAttribute('src');
+  $('foto').classList.remove('visible', 'revelar');
+  ctx.clearRect(0, 0, 720, 900);
+  try { localStorage.removeItem('lasala:ultimo'); } catch (e) {}
+  if (enfocar) { q.value = ''; sug.innerHTML = ''; $('noesta').classList.add('oculto'); q.focus(); window.scrollTo(0, 0); }
+}
 q.addEventListener('keydown', e => {
   const items = [...sug.children];
   if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
@@ -176,9 +192,11 @@ function elegir(u) {
   for (const k in ultimo) delete ultimo[k];
   $('foto').classList.remove('visible', 'revelar');
   $('final').classList.add('oculto');
+  $('final-img').removeAttribute('src');
+  ctx.clearRect(0, 0, 720, 900);
   $('zona').classList.remove('oculto');
-  img = new Image();
-  img.onload = () => { $('foto').classList.remove('visible'); pintar(); };
+  const nueva = img = new Image();
+  nueva.onload = () => { if (img !== nueva) return; $('foto').classList.remove('visible'); pintar(); };
   img.src = 'fotos/' + encodeURIComponent(u) + '.webp';
   cargarSpotify();
   pintar();
@@ -265,6 +283,8 @@ window.onSpotifyIframeApiReady = api => {
     });
   });
 };
+
+$('otro').onclick = () => limpiar();
 
 // --- cronómetro de la app de Spotify ---
 $('escuchar').addEventListener('click', e => {
