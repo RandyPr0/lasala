@@ -52,19 +52,14 @@ input:focus{border-color:var(--rojo)}
 .compartir{margin-top:10px;background:linear-gradient(90deg,#D8343F,#7A1F3D);color:#fff}
 #insta{margin:0 0 14px}
 .otro{width:100%;margin-top:14px;font:inherit;font-weight:700;font-size:17px;padding:14px;border-radius:14px;border:2px solid var(--dorado);background:transparent;color:var(--dorado);cursor:pointer}
-.vuelve{margin-top:16px;padding:14px 16px;border-radius:14px;border:3px solid var(--dorado);background:rgba(224,168,46,.12);text-align:center;font-family:Anton,Impact,sans-serif;font-size:20px;line-height:1.25;letter-spacing:.02em;color:var(--dorado);animation:latido 1.6s ease-in-out infinite}
-.vuelve p{margin:0}.vuelve p+p{margin-top:8px}
-@keyframes latido{0%,100%{box-shadow:0 0 0 0 rgba(224,168,46,0);border-color:var(--dorado)}50%{box-shadow:0 0 22px 2px rgba(224,168,46,.55);border-color:#fff3c4}}
-#pantalla{position:fixed;inset:0;z-index:50;background:var(--marino);display:flex;flex-direction:column;justify-content:center;gap:22px;padding:24px 20px;text-align:center}
-#pantalla p{margin:0;font-family:Anton,Impact,sans-serif;font-size:clamp(28px,9vw,40px);line-height:1.15;color:var(--dorado);letter-spacing:.02em}
-#pantalla .boton{padding:16px;font-size:20px;margin-top:6px}
-#bien{position:fixed;left:12px;right:12px;top:12px;z-index:40;padding:18px 16px;border-radius:16px;background:var(--marino);border:3px solid var(--dorado);font-family:Anton,Impact,sans-serif;font-size:24px;line-height:1.2;text-align:center;color:var(--dorado);box-shadow:0 10px 30px rgba(0,0,0,.5)}
-.toca{margin-top:14px;padding:14px 16px;border-radius:16px;background:#E0A82E;color:#12162b;border:4px solid #12162b;outline:3px solid #E0A82E;text-align:center;animation:pulso 1.4s ease-in-out infinite}
-.toca p{margin:0;font-family:Anton,Impact,sans-serif;font-size:clamp(24px,7vw,30px);line-height:1.15;letter-spacing:.02em}
-.toca p+p{margin-top:6px}
-.toca .aviso-play{font-family:inherit;font-weight:800;font-size:clamp(17px,5vw,20px);line-height:1.25;margin-top:10px}
-@keyframes pulso{0%,100%{transform:scale(1);box-shadow:0 0 0 0 rgba(224,168,46,.6)}50%{transform:scale(1.02);box-shadow:0 0 26px 6px rgba(224,168,46,.55)}}
+#bien{position:fixed;left:50%;transform:translateX(-50%);top:12px;z-index:40;padding:8px 16px;border-radius:999px;background:var(--marino);border:1px solid var(--dorado);font-weight:700;font-size:16px;color:var(--dorado);box-shadow:0 6px 18px rgba(0,0,0,.4);white-space:nowrap}
 #foto{margin-top:16px}
+.toca{margin-top:14px;padding:14px 16px;border-radius:14px;background:#262d55;border:1px solid var(--dorado);color:var(--texto);font-size:18px;line-height:1.4}
+.toca ol{margin:0;padding-left:22px}
+.toca li+li{margin-top:6px}
+.toca li::marker{color:var(--dorado);font-weight:700}
+.toca small{display:block;margin-top:8px;color:var(--suave);font-size:14px;font-style:italic}
+#vuelve{margin:6px 0 0;font-size:13px;color:var(--texto)}
 .nota{margin:10px 0 0;text-align:center;font-size:14.5px;color:var(--texto)}
 .descargar{width:100%;margin-top:16px;font-family:Anton,Impact,sans-serif;font-size:22px;letter-spacing:.03em;padding:14px;border-radius:14px;border:0;background:var(--dorado);color:var(--marino);cursor:pointer}
 .descargar:disabled{background:#3a3f63;color:var(--suave);cursor:not-allowed;font-family:inherit;font-size:16px;font-weight:600}
@@ -76,12 +71,6 @@ a{color:var(--dorado)}
 </style>
 </head>
 <body>
-<div id="pantalla" class="oculto" role="dialog" aria-modal="true">
-  <p>PASO 1 ▶️ TOCA PLAY EN VIBRAS</p>
-  <p>PASO 2 ↩️ VUELVE A ESTA PÁGINA</p>
-  <p>⚠️ Tu muñeco solo se descarga si Vibras está sonando</p>
-  <a id="entendido" class="boton" href="https://open.spotify.com/track/3QVuWcj9IBHdYk8bWMayr9" target="_blank" rel="noopener">Entendido</a>
-</div>
 <div id="bien" class="oculto" role="status"></div>
 <main>
   <h1>La sala de Randy <span>Busca tu muñeco</span></h1>
@@ -96,12 +85,10 @@ a{color:var(--dorado)}
   <p id="noesta" class="aviso oculto">Todavía no tienes muñeco: comenta en cualquier reel de La sala de <a href="https://www.instagram.com/randy.pro/" target="_blank" rel="noopener">@randy.pro</a> y sales en el próximo capítulo</p>
 
   <section id="zona" class="oculto">
-    <div id="vuelve" class="vuelve oculto"><p>↩️ Cuando suene Vibras, VUELVE AQUÍ: tu muñeco se sigue descargando</p><p>⚠️ Tu muñeco solo se descarga si Vibras está sonando</p></div>
     <a id="escuchar" class="boton grande" href="https://open.spotify.com/track/3QVuWcj9IBHdYk8bWMayr9" target="_blank" rel="noopener">⬇️ Descargar mi muñeco</a>
     <div class="toca">
-      <p>PASO 1 ▶️ TOCA PLAY EN VIBRAS</p>
-      <p>PASO 2 ↩️ VUELVE A ESTA PÁGINA</p>
-      <p class="aviso-play">⚠️ Tu muñeco solo se descarga si Vibras está sonando</p>
+      <ol><li>Toca play en Vibras ▶️</li><li>Vuelve a esta página ↩️</li></ol>
+      <small>Tu muñeco solo se descarga si Vibras está sonando</small>
     </div>
 
     <div class="foto" id="foto">
@@ -112,6 +99,7 @@ a{color:var(--dorado)}
         <p id="pct">Tu muñeco se está descargando… 0 %</p>
         <div class="pista"><div id="relleno"></div></div>
         <p id="cuenta"></p>
+        <p id="vuelve" class="oculto">Cuando suene Vibras, vuelve aquí 😉</p>
       </div>
     </div>
 
@@ -126,7 +114,7 @@ a{color:var(--dorado)}
     </div>
     <button id="otro" class="otro" type="button">🔎 Buscar otro @</button>
   </section>
-  <footer>Vibras · Randy Pro · v8</footer>
+  <footer>Vibras · Randy Pro · v9</footer>
 </main>
 
 <script>
@@ -276,26 +264,20 @@ function abrirSpotify(e) {
   } else if (!e) window.open('https://open.spotify.com/track/3QVuWcj9IBHdYk8bWMayr9', '_blank');
   // con e (toque en el enlace) iPhone y escritorio siguen el href https normal
 }
-let espera = null;
 $('escuchar').addEventListener('click', e => {
-  e.preventDefault();
-  if (!usuario) return;
+  if (!usuario) { e.preventDefault(); return; }
   if (!inicio) { inicio = Date.now(); guardar(); }
   pintar();
-  $('pantalla').classList.remove('oculto');
-  clearTimeout(espera);
-  // ponytail: sin toque del usuario algunos navegadores bloquean abrir la app; "Entendido" queda como respaldo
-  espera = setTimeout(() => { abrirSpotify(); if (PRUEBA) $('pantalla').classList.add('oculto'); }, 2500);
+  abrirSpotify(e);
 });
-$('entendido').addEventListener('click', e => { clearTimeout(espera); $('pantalla').classList.add('oculto'); abrirSpotify(e); });
 
 let bienT = null;
 document.addEventListener('visibilitychange', () => {
-  if (document.visibilityState === 'hidden') { $('pantalla').classList.add('oculto'); return; }
+  if (document.visibilityState === 'hidden') return;
   if (!usuario || !inicio || total() >= META) return;
   pintar();
   const el = $('bien');
-  el.textContent = `¡Bien! 🎧 Tu muñeco sigue descargándose… ${Math.min(100, Math.floor(total() / META * 100))} %`;
+  el.textContent = `¡Ahí vas! ${Math.min(100, Math.floor(total() / META * 100))} %`;
   el.classList.remove('oculto');
   clearTimeout(bienT);
   bienT = setTimeout(() => el.classList.add('oculto'), 3000);
