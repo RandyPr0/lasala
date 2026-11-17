@@ -50,6 +50,8 @@ input:focus{border-color:var(--rojo)}
 .otra{margin:18px 0 8px;color:var(--suave);font-size:14px;text-align:center}
 .pasos{margin:0 0 16px;padding:12px 16px 12px 34px;border-radius:12px;background:rgba(224,168,46,.1);border:1px solid rgba(224,168,46,.5);font-size:14.5px}
 .pasos li{margin:2px 0}
+.compartir{margin-top:10px;background:linear-gradient(90deg,#D8343F,#7A1F3D);color:#fff}
+#insta{margin:0 0 14px}
 .otro{width:100%;margin-top:14px;font:inherit;font-weight:700;font-size:17px;padding:14px;border-radius:14px;border:2px solid var(--dorado);background:transparent;color:var(--dorado);cursor:pointer}
 .nota{margin:10px 0 0;text-align:center;font-size:14.5px;color:var(--texto)}
 #sp-caja{min-height:152px}
@@ -67,6 +69,7 @@ a{color:var(--dorado)}
 <main>
   <h1>La sala de Randy <span>Busca tu muñeco</span></h1>
 
+  <p id="insta" class="aviso oculto">Para que funcione mejor, ábrela en Safari: toca ··· y luego <b>Abrir en el navegador</b></p>
   <ol class="pasos"><li>Busca tu @</li><li>Toca <b>Descargar</b></li><li>Ponle play a Vibras mientras se descarga y vuelve aquí</li></ol>
 
   <div class="buscar">
@@ -88,16 +91,18 @@ a{color:var(--dorado)}
     </div>
 
     <a id="escuchar" class="boton grande" href="https://open.spotify.com/track/3QVuWcj9IBHdYk8bWMayr9" target="_blank" rel="noopener">⬇️ Descargar mi muñeco</a>
-    <p class="nota"><b>Mientras esperas, ponle play a Vibras 🎧</b><br>Se abre en Spotify: toca ▶ y vuelve aquí para ver cómo va tu muñeco</p>
+    <p class="nota"><b>Mientras esperas, ponle play a Vibras 🎧</b><br>Se abre Vibras en Spotify: toca ▶ en Vibras y vuelve aquí para ver cómo va tu muñeco</p>
     <p class="otra">o ponla aquí:</p>
     <div id="sp-caja"><div id="sp"></div></div>
     <p id="vista" class="aviso oculto">Aquí suena solo un fragmento: inicia sesión en Spotify para oírla entera</p>
     <p id="prueba" class="prueba oculto"></p>
 
     <button id="desc" class="descargar" type="button" disabled>Descargando… 0 %</button>
+    <button id="compartir" class="descargar compartir oculto" type="button">📲 Compartir en Instagram</button>
     <div id="final" class="oculto">
       <img id="final-img" alt="Tu muñeco de La sala de Randy">
-      <p class="reto">Súbela a tus historias con el audio de la canción, una carita de risa 😂 y etiqueta a @randy.pro para repostearte</p>
+      <p class="nota">En iPhone también puedes dejar el dedo sobre la foto y elegir <b>Guardar en Fotos</b></p>
+      <p class="reto">😂 Puede que no se parezca a ti en persona… pero de eso se trata el reto. Súbelo a tus historias de Instagram con el audio de Vibras, una carita de risa 😂 y etiqueta a @randy.pro para que te repostee.</p>
     </div>
     <button id="otro" class="otro" type="button">🔎 Buscar otro @</button>
   </section>
@@ -112,6 +117,8 @@ const local = ['localhost', '127.0.0.1', '[::1]'].includes(location.hostname);
 const PRUEBA = local && new URLSearchParams(location.search).get('prueba') === '1';
 const VEL = PRUEBA ? 10 : 1;
 const $ = id => document.getElementById(id);
+const IOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+if (IOS && /Instagram/i.test(navigator.userAgent)) $('insta').classList.remove('oculto');
 const norm = s => s.trim().replace(/^@+/, '').replace(/\s+/g, '').toLowerCase();
 
 let usuarios = [], usuario = null, img = null;
@@ -233,7 +240,9 @@ function pintar() {
   const listo = t >= META;
   const b = $('desc');
   b.disabled = !listo;
-  b.textContent = listo ? 'Guardar mi foto' : `Descargando… ${pct} %`;
+  b.textContent = listo ? (IOS ? '📲 Guardar o compartir' : 'Guardar mi foto') : `Descargando… ${pct} %`;
+  $('compartir').classList.toggle('oculto', !(listo && puedeCompartir && !IOS));
+  if (listo && img && img.complete && img.naturalWidth) fotoFinal(); // la foto final en un <img> para la pulsación larga
   if (PRUEBA) $('prueba').textContent = `Modo prueba ×${VEL} · escuchado ${t.toFixed(1)} s de ${META} s`;
 }
 
@@ -303,28 +312,57 @@ document.addEventListener('visibilitychange', () => { if (usuario) pintar(); });
 addEventListener('pagehide', () => { if (usuario) guardar(); });
 
 // --- descarga con marco y franja ---
+// --- foto final con marco y franja ---
+let puedeCompartir = false;
+try { puedeCompartir = !!(navigator.canShare && navigator.canShare({ files: [new File(['x'], 'x.jpg', { type: 'image/jpeg' })] })); } catch (e) {}
+
+let hecha = null, haciendo = null; // hecha = { u, blob, url }
+function fotoFinal() {
+  if (hecha && hecha.u === usuario) { mostrarFinal(); return Promise.resolve(hecha); }
+  if (haciendo) return haciendo;
+  const u = usuario, im = img;
+  haciendo = (async () => {
+    try { await document.fonts.load('56px Anton'); } catch (e) {}
+    const W = 800, M = 40, H = M + 900 + 150;
+    const c = document.createElement('canvas'); c.width = W; c.height = H;
+    const g = c.getContext('2d');
+    g.fillStyle = '#7A1F3D'; g.fillRect(0, 0, W, H);
+    g.drawImage(im, M, M, 720, 900);
+    g.strokeStyle = '#E0A82E'; g.lineWidth = 8; g.strokeRect(M - 4, M - 4, 728, 908);
+    g.fillStyle = '#1B2140'; g.fillRect(0, M + 920, W, 130);
+    g.fillStyle = '#D8343F'; g.fillRect(0, M + 920, W, 6);
+    g.fillStyle = '#E0A82E'; g.textAlign = 'center'; g.textBaseline = 'middle';
+    g.font = '52px Anton, Impact, sans-serif';
+    g.fillText('LA SALA DE RANDY · @randy.pro', W / 2, M + 988, W - 60);
+    const blob = await new Promise(ok => c.toBlob(ok, 'image/jpeg', 0.92));
+    hecha = { u, blob, url: URL.createObjectURL(blob) };
+    haciendo = null;
+    if (usuario === u) mostrarFinal();
+    return hecha;
+  })();
+  return haciendo;
+}
+function mostrarFinal() {
+  if ($('final-img').getAttribute('src') !== hecha.url) $('final-img').src = hecha.url;
+  $('final').classList.remove('oculto');
+}
+const compartir = async f => {
+  const file = new File([f.blob], `lasala_${usuario}.jpg`, { type: 'image/jpeg' });
+  try { await navigator.share({ files: [file] }); } catch (e) {} // cancelar no es error
+};
+
 $('desc').onclick = async () => {
   if (!img || total() < META) return;
-  try { await document.fonts.load('56px Anton'); } catch (e) {}
-  const W = 800, M = 40, H = M + 900 + 150;
-  const c = document.createElement('canvas'); c.width = W; c.height = H;
-  const g = c.getContext('2d');
-  g.fillStyle = '#7A1F3D'; g.fillRect(0, 0, W, H);
-  g.drawImage(img, M, M, 720, 900);
-  g.strokeStyle = '#E0A82E'; g.lineWidth = 8; g.strokeRect(M - 4, M - 4, 728, 908);
-  g.fillStyle = '#1B2140'; g.fillRect(0, M + 900 + 20, W, 130 - 20 + 20);
-  g.fillStyle = '#D8343F'; g.fillRect(0, M + 900 + 20, W, 6);
-  g.fillStyle = '#E0A82E'; g.textAlign = 'center'; g.textBaseline = 'middle';
-  g.font = '52px Anton, Impact, sans-serif';
-  g.fillText('LA SALA DE RANDY · @randy.pro', W / 2, M + 900 + 20 + 68, W - 60);
-  c.toBlob(b => {
-    const url = URL.createObjectURL(b);
-    $('final-img').src = url;
-    $('final').classList.remove('oculto');
-    const a = document.createElement('a');
-    a.href = url; a.download = `lasala_${usuario}.jpg`;
-    document.body.appendChild(a); a.click(); a.remove();
-  }, 'image/jpeg', 0.92);
+  const f = await fotoFinal();
+  if (IOS && puedeCompartir) return compartir(f); // en iPhone la hoja trae "Guardar imagen" (Fotos) e Instagram
+  const a = document.createElement('a');
+  a.href = f.url; a.download = `lasala_${usuario}.jpg`;
+  document.body.appendChild(a); a.click(); a.remove();
+};
+
+$('compartir').onclick = async () => {
+  if (!img || total() < META) return;
+  compartir(await fotoFinal());
 };
 
 if (PRUEBA) $('prueba').classList.remove('oculto');
