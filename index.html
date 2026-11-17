@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>La sala de Randy · Busca tu muñeco</title>
+<meta name="description" content="Busca tu @ y desbloquea la foto de tu muñeco 3D escuchando Vibras de Randy Pro.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<style>
+:root{--vino:#7A1F3D;--marino:#1B2140;--dorado:#E0A82E;--rojo:#D8343F;--texto:#F4EDE4;--suave:#B9B3C9}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:linear-gradient(180deg,var(--marino) 0%,#12162b 60%,var(--vino) 140%) fixed;background-color:var(--marino);color:var(--texto);font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;min-height:100vh}
+main{max-width:480px;margin:0 auto;padding:20px 16px 48px}
+h1{font-family:Anton,Impact,sans-serif;font-weight:400;letter-spacing:.02em;line-height:1.05;margin:4px 0 18px;font-size:clamp(28px,8vw,40px);text-transform:uppercase}
+h1 span{display:block;color:var(--dorado);font-size:.62em}
+.buscar{position:relative}
+input{width:100%;font-size:18px;padding:14px 16px;border-radius:14px;border:2px solid var(--dorado);background:#0f1326;color:var(--texto);outline:none}
+input:focus{border-color:var(--rojo)}
+#sug{list-style:none;margin:6px 0 0;padding:0;border-radius:12px;overflow:hidden;background:#0f1326;border:1px solid #2e3560}
+#sug:empty{display:none}
+#sug li{padding:12px 16px;cursor:pointer;border-top:1px solid #222848}
+#sug li:first-child{border-top:0}
+#sug li:hover,#sug li.activo{background:var(--vino)}
+.aviso{margin:14px 0 0;padding:14px 16px;border-radius:12px;background:rgba(216,52,63,.15);border:1px solid var(--rojo)}
+.oculto{display:none!important}
+#zona{margin-top:20px}
+.foto{position:relative;border-radius:16px;overflow:hidden;border:3px solid var(--dorado);background:#000;aspect-ratio:4/5}
+.foto canvas{display:block;width:100%;height:100%;filter:blur(16px) brightness(.45) saturate(.6);transform:scale(1.08)}
+.foto.visible canvas{filter:none;transform:none}
+.tapa{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding-bottom:70px;background:radial-gradient(circle at 50% 40%,rgba(122,31,61,.35),rgba(27,33,64,.75))}
+.tapa b{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:140px;line-height:1;color:var(--dorado);text-shadow:0 0 30px rgba(224,168,46,.55)}
+.tapa span{font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:13px;color:var(--texto)}
+.foto.visible .tapa{display:none}
+.foto.revelar{animation:voltear .9s ease-out}
+.foto.revelar::after{content:"";position:absolute;inset:0;background:#fff;pointer-events:none;animation:destello .9s ease-out forwards}
+@keyframes voltear{0%{transform:perspective(900px) rotateY(90deg)}60%{transform:perspective(900px) rotateY(-8deg)}100%{transform:none}}
+@keyframes destello{0%{opacity:.95}100%{opacity:0}}
+#cuenta{margin:6px 0 0;font-size:13px;color:var(--dorado)}
+.barra{position:absolute;left:12px;right:12px;bottom:12px;background:rgba(15,19,38,.85);border-radius:12px;padding:10px 12px;backdrop-filter:blur(4px)}
+.barra p{margin:0 0 6px;font-weight:600;font-size:15px}
+.pista{height:10px;border-radius:6px;background:#2a2f52;overflow:hidden}
+.pista div{height:100%;width:0;background:linear-gradient(90deg,var(--rojo),var(--dorado));transition:width .3s}
+.sesion{background:rgba(29,185,84,.12);border-color:#1DB954;margin:0 0 12px}
+.boton{display:block;margin-top:10px;text-align:center;padding:12px;border-radius:999px;background:#1DB954;color:#0b0b0b;font-weight:700;text-decoration:none}
+#sp-caja{min-height:152px}
+#vista{margin-top:12px}
+.descargar{width:100%;margin-top:16px;font-family:Anton,Impact,sans-serif;font-size:22px;letter-spacing:.03em;padding:14px;border-radius:14px;border:0;background:var(--dorado);color:var(--marino);cursor:pointer}
+.descargar:disabled{background:#3a3f63;color:var(--suave);cursor:not-allowed;font-family:inherit;font-size:16px;font-weight:600}
+#final img{width:100%;border-radius:12px;margin-top:16px;display:block}
+.reto{margin-top:12px;padding:14px 16px;border-radius:12px;background:rgba(224,168,46,.12);border:1px solid var(--dorado);font-weight:600}
+.prueba{margin-top:10px;font-size:13px;color:var(--dorado)}
+footer{margin-top:28px;color:var(--suave);font-size:13px;text-align:center}
+a{color:var(--dorado)}
+</style>
+</head>
+<body>
+<main>
+  <h1>La sala de Randy <span>Busca tu muñeco</span></h1>
+
+  <div class="buscar">
+    <input id="q" type="search" placeholder="Escribe tu @" autocomplete="off" autocapitalize="none" spellcheck="false" enterkeyhint="search" aria-label="Escribe tu @">
+    <ul id="sug" role="listbox"></ul>
+  </div>
+  <p id="noesta" class="aviso oculto">Todavía no tienes muñeco: comenta en cualquier reel de La sala de <a href="https://www.instagram.com/randy.pro/" target="_blank" rel="noopener">@randy.pro</a> y sales en el próximo capítulo</p>
+
+  <section id="zona" class="oculto">
+    <div class="foto" id="foto">
+      <canvas id="lienzo" width="720" height="900"></canvas>
+      <div class="tapa"><b>?</b><span>Muñeco oculto</span></div>
+      <div class="barra">
+        <p id="pct">Descargando tu muñeco… 0 %</p>
+        <div class="pista"><div id="relleno"></div></div>
+        <p id="cuenta"></p>
+      </div>
+    </div>
+
+    <p style="margin:16px 0 8px">Escucha <b>Vibras</b> de Randy Pro para que tu muñeco termine de descargar:</p>
+    <p class="aviso sesion">Inicia sesión en Spotify para escucharla completa y que tu play cuente
+      <a class="boton" href="https://open.spotify.com/" target="_blank" rel="noopener">Iniciar sesión en Spotify</a></p>
+    <div id="sp-caja"><div id="sp"></div></div>
+    <p id="vista" class="aviso oculto">Estás escuchando solo la vista previa: inicia sesión en Spotify para desbloquear tu foto</p>
+    <p id="prueba" class="prueba oculto"></p>
+
+    <button id="desc" class="descargar" type="button" disabled>Se desbloquea al terminar la canción</button>
+    <div id="final" class="oculto">
+      <img id="final-img" alt="Tu muñeco de La sala de Randy">
+      <p class="reto">Súbela a tus historias con el audio de la canción, una carita de risa 😂 y etiqueta a @randy.pro para repostearte</p>
+    </div>
+  </section>
+
+  <footer>Vibras · Randy Pro</footer>
+</main>
+
+<script>
+const SPOTIFY = 'spotify:track:3QVuWcj9IBHdYk8bWMayr9';
+const NITIDA = 50, MARGEN = 3, SALTO = 2;
+const local = ['localhost', '127.0.0.1', '[::1]'].includes(location.hostname);
+const PRUEBA = local && new URLSearchParams(location.search).get('prueba') === '1';
+const VEL = PRUEBA ? 10 : 1;
+const $ = id => document.getElementById(id);
+const norm = s => s.trim().replace(/^@+/, '').replace(/\s+/g, '').toLowerCase();
+
+let usuarios = [], usuario = null, img = null;
+let oido = 0, dur = 165;
+const ultimo = {};
+
+const guardar = () => { try { localStorage.setItem('lasala:' + usuario, JSON.stringify({ s: oido, d: dur })); } catch (e) {} };
+const cargar = u => { try { return JSON.parse(localStorage.getItem('lasala:' + u)) || {}; } catch (e) { return {}; } };
+
+fetch('fotos.json').then(r => r.json()).then(l => { usuarios = l; });
+
+// --- búsqueda ---
+const q = $('q'), sug = $('sug');
+let activo = -1;
+function sugerir() {
+  const t = norm(q.value);
+  $('noesta').classList.add('oculto');
+  activo = -1;
+  if (!t) { sug.innerHTML = ''; return; }
+  const empieza = usuarios.filter(u => u.startsWith(t));
+  const contiene = usuarios.filter(u => !u.startsWith(t) && u.includes(t));
+  const lista = empieza.concat(contiene).slice(0, 8);
+  sug.innerHTML = lista.map(u => `<li role="option" data-u="${u}">@${u}</li>`).join('');
+  if (!lista.length) $('noesta').classList.remove('oculto');
+}
+q.addEventListener('input', sugerir);
+q.addEventListener('keydown', e => {
+  const items = [...sug.children];
+  if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+    if (!items.length) return;
+    e.preventDefault();
+    activo = (activo + (e.key === 'ArrowDown' ? 1 : -1) + items.length) % items.length;
+    items.forEach((li, i) => li.classList.toggle('activo', i === activo));
+  } else if (e.key === 'Enter') {
+    e.preventDefault();
+    const t = norm(q.value);
+    if (activo >= 0) elegir(items[activo].dataset.u);
+    else if (usuarios.includes(t)) elegir(t);
+    else if (items.length === 1) elegir(items[0].dataset.u);
+    else if (!items.length) $('noesta').classList.remove('oculto');
+  }
+});
+sug.addEventListener('click', e => { const li = e.target.closest('li'); if (li) elegir(li.dataset.u); });
+
+function elegir(u) {
+  usuario = u;
+  q.value = '@' + u;
+  sug.innerHTML = '';
+  q.blur();
+  $('noesta').classList.add('oculto');
+  const g = cargar(u);
+  oido = g.s || 0;
+  if (g.d) dur = g.d;
+  for (const k in ultimo) delete ultimo[k];
+  $('foto').classList.remove('visible', 'revelar');
+  $('final').classList.add('oculto');
+  $('zona').classList.remove('oculto');
+  img = new Image();
+  img.onload = () => { $('foto').classList.remove('visible'); pintar(); };
+  img.src = 'fotos/' + encodeURIComponent(u) + '.webp';
+  cargarSpotify();
+  pintar();
+}
+
+// --- muñeco oculto hasta los 50 s, luego se revela de golpe ---
+const lienzo = $('lienzo'), ctx = lienzo.getContext('2d');
+const chico = document.createElement('canvas'), cctx = chico.getContext('2d');
+function pintar() {
+  const ver = oido >= NITIDA, foto = $('foto');
+  if (img && img.complete && img.naturalWidth) {
+    if (ver) {
+      ctx.imageSmoothingEnabled = true;
+      ctx.drawImage(img, 0, 0, 720, 900);
+    } else {
+      chico.width = 12; chico.height = 15;
+      cctx.drawImage(img, 0, 0, 12, 15);
+      ctx.imageSmoothingEnabled = false;
+      ctx.drawImage(chico, 0, 0, 12, 15, 0, 0, 720, 900);
+    }
+  }
+  if (ver && !foto.classList.contains('visible')) {
+    foto.classList.add('visible');
+    if (img && img.complete) { foto.classList.remove('revelar'); void foto.offsetWidth; foto.classList.add('revelar'); }
+  }
+  $('cuenta').textContent = ver ? '' : `Tu muñeco aparece en ${Math.ceil((NITIDA - oido) / VEL)}s`;
+  const pct = Math.min(100, Math.floor(oido / dur * 100));
+  $('pct').textContent = pct >= 100 ? 'Tu muñeco está listo · 100 %' : `Descargando tu muñeco… ${pct} %`;
+  $('relleno').style.width = pct + '%';
+  const listo = oido >= dur - MARGEN;
+  const b = $('desc');
+  b.disabled = !listo;
+  b.textContent = listo ? 'Descargar mi foto' : 'Se desbloquea al terminar la canción';
+  if (PRUEBA) $('prueba').textContent = `Modo prueba ×${VEL} · escuchado ${oido.toFixed(1)} s de ${dur} s`;
+}
+
+// --- conteo de segundos escuchados de verdad ---
+// pos y d en segundos
+function oir(fuente, pos, d, sonando) {
+  if (!usuario) return;
+  // Sin sesión Spotify reporta la vista previa (≤ 30 s): no cuenta y se avisa
+  const vista = d > 0 && d <= 30;
+  $('vista').classList.toggle('oculto', !vista);
+  if (d > 30) dur = Math.round(d);
+  const ahora = performance.now() / 1000, u = ultimo[fuente];
+  ultimo[fuente] = { pos, t: ahora };
+  if (!sonando || !u || vista) return;
+  const delta = pos - u.pos;
+  if (delta > 0 && delta <= SALTO && delta <= ahora - u.t + 0.75) {
+    oido += delta * VEL;
+    guardar();
+  }
+  pintar();
+}
+window.oir = oir;
+
+// --- reproductor de Spotify ---
+let spPedido = false;
+function cargarSpotify() {
+  if (spPedido) return;
+  spPedido = true;
+  if (PRUEBA) {
+    // simula Spotify sonando: ?prueba=1&vista=1 simula la vista previa de 30 s
+    const d = new URLSearchParams(location.search).get('vista') === '1' ? 30 : 165;
+    let pos = 0;
+    setInterval(() => { pos = (pos + 0.25) % d; oir('sp', pos, d, true); }, 250);
+    return;
+  }
+  const s = document.createElement('script');
+  s.src = 'https://open.spotify.com/embed/iframe-api/v1'; s.async = true;
+  document.head.appendChild(s);
+}
+
+window.onSpotifyIframeApiReady = api => {
+  api.createController($('sp'), { uri: SPOTIFY, width: '100%', height: 152 }, ctl => {
+    ctl.addListener('playback_update', e => {
+      const x = e.data;
+      oir('sp', x.position / 1000, x.duration / 1000, !x.isPaused && !x.isBuffering);
+    });
+  });
+};
+
+// --- descarga con marco y franja ---
+$('desc').onclick = async () => {
+  if (!img || oido < dur - MARGEN) return;
+  try { await document.fonts.load('56px Anton'); } catch (e) {}
+  const W = 800, M = 40, H = M + 900 + 150;
+  const c = document.createElement('canvas'); c.width = W; c.height = H;
+  const g = c.getContext('2d');
+  g.fillStyle = '#7A1F3D'; g.fillRect(0, 0, W, H);
+  g.drawImage(img, M, M, 720, 900);
+  g.strokeStyle = '#E0A82E'; g.lineWidth = 8; g.strokeRect(M - 4, M - 4, 728, 908);
+  g.fillStyle = '#1B2140'; g.fillRect(0, M + 900 + 20, W, 130 - 20 + 20);
+  g.fillStyle = '#D8343F'; g.fillRect(0, M + 900 + 20, W, 6);
+  g.fillStyle = '#E0A82E'; g.textAlign = 'center'; g.textBaseline = 'middle';
+  g.font = '52px Anton, Impact, sans-serif';
+  g.fillText('LA SALA DE RANDY · @randy.pro', W / 2, M + 900 + 20 + 68, W - 60);
+  c.toBlob(b => {
+    const url = URL.createObjectURL(b);
+    $('final-img').src = url;
+    $('final').classList.remove('oculto');
+    const a = document.createElement('a');
+    a.href = url; a.download = `lasala_${usuario}.jpg`;
+    document.body.appendChild(a); a.click(); a.remove();
+  }, 'image/jpeg', 0.92);
+};
+
+if (PRUEBA) $('prueba').classList.remove('oculto');
+</script>
+</body>
+</html>
