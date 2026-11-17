@@ -47,7 +47,6 @@ input:focus{border-color:var(--rojo)}
 .pista div{height:100%;width:0;background:linear-gradient(90deg,var(--rojo),var(--dorado));transition:width .3s}
 .boton{display:block;text-align:center;border-radius:999px;background:#1DB954;color:#0b0b0b;font-weight:800;text-decoration:none}
 .boton.grande{margin-top:16px;padding:18px 12px;font-size:21px;box-shadow:0 6px 24px rgba(29,185,84,.35)}
-.otra{margin:18px 0 8px;color:var(--suave);font-size:14px;text-align:center}
 .pasos{margin:0 0 16px;padding:12px 16px 12px 34px;border-radius:12px;background:rgba(224,168,46,.1);border:1px solid rgba(224,168,46,.5);font-size:14.5px}
 .pasos li{margin:2px 0}
 .compartir{margin-top:10px;background:linear-gradient(90deg,#D8343F,#7A1F3D);color:#fff}
@@ -60,9 +59,13 @@ input:focus{border-color:var(--rojo)}
 #pantalla p{margin:0;font-family:Anton,Impact,sans-serif;font-size:clamp(28px,9vw,40px);line-height:1.15;color:var(--dorado);letter-spacing:.02em}
 #pantalla .boton{padding:16px;font-size:20px;margin-top:6px}
 #bien{position:fixed;left:12px;right:12px;top:12px;z-index:40;padding:18px 16px;border-radius:16px;background:var(--marino);border:3px solid var(--dorado);font-family:Anton,Impact,sans-serif;font-size:24px;line-height:1.2;text-align:center;color:var(--dorado);box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.toca{margin-top:14px;padding:14px 16px;border-radius:16px;background:#E0A82E;color:#12162b;border:4px solid #12162b;outline:3px solid #E0A82E;text-align:center;animation:pulso 1.4s ease-in-out infinite}
+.toca p{margin:0;font-family:Anton,Impact,sans-serif;font-size:clamp(24px,7vw,30px);line-height:1.15;letter-spacing:.02em}
+.toca p+p{margin-top:6px}
+.toca .aviso-play{font-family:inherit;font-weight:800;font-size:clamp(17px,5vw,20px);line-height:1.25;margin-top:10px}
+@keyframes pulso{0%,100%{transform:scale(1);box-shadow:0 0 0 0 rgba(224,168,46,.6)}50%{transform:scale(1.02);box-shadow:0 0 26px 6px rgba(224,168,46,.55)}}
+#foto{margin-top:16px}
 .nota{margin:10px 0 0;text-align:center;font-size:14.5px;color:var(--texto)}
-#sp-caja{min-height:152px}
-#vista{margin-top:12px}
 .descargar{width:100%;margin-top:16px;font-family:Anton,Impact,sans-serif;font-size:22px;letter-spacing:.03em;padding:14px;border-radius:14px;border:0;background:var(--dorado);color:var(--marino);cursor:pointer}
 .descargar:disabled{background:#3a3f63;color:var(--suave);cursor:not-allowed;font-family:inherit;font-size:16px;font-weight:600}
 #final img{width:100%;border-radius:12px;margin-top:16px;display:block}
@@ -74,9 +77,9 @@ a{color:var(--dorado)}
 </head>
 <body>
 <div id="pantalla" class="oculto" role="dialog" aria-modal="true">
-  <p>1️⃣ Dale ▶ a Vibras en Spotify</p>
-  <p>2️⃣ ↩️ VUELVE A ESTA PÁGINA para ver tu muñeco</p>
-  <p>⚠️ Si no le das ▶ a Vibras, tu muñeco no se descarga.</p>
+  <p>PASO 1 ▶️ TOCA PLAY EN VIBRAS</p>
+  <p>PASO 2 ↩️ VUELVE A ESTA PÁGINA</p>
+  <p>⚠️ Tu muñeco solo se descarga si Vibras está sonando</p>
   <a id="entendido" class="boton" href="https://open.spotify.com/track/3QVuWcj9IBHdYk8bWMayr9" target="_blank" rel="noopener">Entendido</a>
 </div>
 <div id="bien" class="oculto" role="status"></div>
@@ -84,7 +87,7 @@ a{color:var(--dorado)}
   <h1>La sala de Randy <span>Busca tu muñeco</span></h1>
 
   <p id="insta" class="aviso oculto">Para que funcione mejor, ábrela en Safari: toca ··· y luego <b>Abrir en el navegador</b></p>
-  <ol class="pasos"><li>Busca tu @</li><li>Toca <b>Descargar</b></li><li>Ponle play a Vibras mientras se descarga y vuelve aquí</li></ol>
+  <ol class="pasos"><li>Busca tu @</li><li>Toca <b>Descargar</b></li><li>Toca play en Vibras y vuelve aquí</li></ol>
 
   <div class="buscar">
     <input id="q" type="search" placeholder="Escribe tu @" autocomplete="off" autocapitalize="none" spellcheck="false" enterkeyhint="search" aria-label="Escribe tu @">
@@ -93,6 +96,14 @@ a{color:var(--dorado)}
   <p id="noesta" class="aviso oculto">Todavía no tienes muñeco: comenta en cualquier reel de La sala de <a href="https://www.instagram.com/randy.pro/" target="_blank" rel="noopener">@randy.pro</a> y sales en el próximo capítulo</p>
 
   <section id="zona" class="oculto">
+    <div id="vuelve" class="vuelve oculto"><p>↩️ Cuando suene Vibras, VUELVE AQUÍ: tu muñeco se sigue descargando</p><p>⚠️ Tu muñeco solo se descarga si Vibras está sonando</p></div>
+    <a id="escuchar" class="boton grande" href="https://open.spotify.com/track/3QVuWcj9IBHdYk8bWMayr9" target="_blank" rel="noopener">⬇️ Descargar mi muñeco</a>
+    <div class="toca">
+      <p>PASO 1 ▶️ TOCA PLAY EN VIBRAS</p>
+      <p>PASO 2 ↩️ VUELVE A ESTA PÁGINA</p>
+      <p class="aviso-play">⚠️ Tu muñeco solo se descarga si Vibras está sonando</p>
+    </div>
+
     <div class="foto" id="foto">
       <canvas id="lienzo" width="720" height="900"></canvas>
       <div class="tapa"><b>?</b><span>Tu muñeco</span></div>
@@ -104,12 +115,6 @@ a{color:var(--dorado)}
       </div>
     </div>
 
-    <div id="vuelve" class="vuelve oculto"><p>↩️ Cuando suene Vibras, VUELVE AQUÍ: tu muñeco se sigue descargando</p><p>⚠️ Si no le das ▶ a Vibras, tu muñeco no se descarga.</p></div>
-    <a id="escuchar" class="boton grande" href="https://open.spotify.com/track/3QVuWcj9IBHdYk8bWMayr9" target="_blank" rel="noopener">⬇️ Descargar mi muñeco</a>
-    <p class="nota"><b>Mientras esperas, ponle play a Vibras 🎧</b><br>Se abre Vibras en Spotify: toca ▶ en Vibras y vuelve aquí para ver cómo va tu muñeco</p>
-    <p class="otra">o ponla aquí:</p>
-    <div id="sp-caja"><div id="sp"></div></div>
-    <p id="vista" class="aviso oculto">Aquí suena solo un fragmento: inicia sesión en Spotify para oírla entera</p>
     <p id="prueba" class="prueba oculto"></p>
 
     <button id="desc" class="descargar" type="button" disabled>Descargando… 0 %</button>
@@ -125,9 +130,8 @@ a{color:var(--dorado)}
 </main>
 
 <script>
-const SPOTIFY = 'spotify:track:3QVuWcj9IBHdYk8bWMayr9';
 // ponytail: duración de la canción (165 s) + 4 s; la foto nítida y la descarga llegan juntas
-const META = 169, NITIDA = META, SALTO = 2;
+const META = 169, NITIDA = META;
 const local = ['localhost', '127.0.0.1', '[::1]'].includes(location.hostname);
 const PRUEBA = local && new URLSearchParams(location.search).get('prueba') === '1';
 const VEL = PRUEBA ? 10 : 1;
@@ -139,7 +143,6 @@ const norm = s => s.trim().replace(/^@+/, '').replace(/\s+/g, '').toLowerCase();
 
 let usuarios = [], usuario = null, img = null;
 let oido = 0, dur = 165;
-const ultimo = {};
 
 let inicio = 0; // hora (ms) en que tocó "Descargar mi muñeco" por primera vez
 // cronómetro desde la hora guardada (sigue aunque la página se duerma) o lo oído aquí, lo que sea mayor
@@ -212,7 +215,6 @@ function elegir(u) {
   oido = g.s || 0;
   inicio = g.i || 0;
   if (g.d) dur = g.d;
-  for (const k in ultimo) delete ultimo[k];
   $('foto').classList.remove('visible', 'revelar');
   $('final').classList.add('oculto');
   $('final-img').removeAttribute('src');
@@ -221,7 +223,6 @@ function elegir(u) {
   const nueva = img = new Image();
   nueva.onload = () => { if (img !== nueva) return; $('foto').classList.remove('visible'); pintar(); };
   img.src = 'fotos/' + encodeURIComponent(u) + '.webp';
-  cargarSpotify();
   pintar();
 }
 
@@ -264,56 +265,6 @@ function pintar() {
   if (PRUEBA) $('prueba').textContent = `Modo prueba ×${VEL} · escuchado ${t.toFixed(1)} s de ${META} s`;
 }
 
-// --- conteo de segundos escuchados de verdad ---
-// pos y d en segundos
-function oir(fuente, pos, d, sonando) {
-  if (!usuario) return;
-  // Sin sesión Spotify reporta la vista previa (≤ 30 s): no cuenta y se avisa
-  const vista = d > 0 && d <= 30;
-  $('vista').classList.toggle('oculto', !vista);
-  if (d > 30) dur = Math.round(d);
-  const ahora = performance.now() / 1000, u = ultimo[fuente];
-  ultimo[fuente] = { pos, t: ahora };
-  if (!sonando || !u || vista) return;
-  const delta = pos - u.pos;
-  if (delta > 0 && delta <= SALTO && delta <= ahora - u.t + 0.75) {
-    oido += delta * VEL;
-    guardar();
-  }
-  pintar();
-}
-window.oir = oir;
-
-// --- reproductor de Spotify ---
-let spPedido = false;
-function cargarSpotify() {
-  if (spPedido) return;
-  spPedido = true;
-  if (PRUEBA) {
-    // ?prueba=1&embed=1 simula el reproductor de aquí; &vista=1 la vista previa de 30 s
-    if (new URLSearchParams(location.search).get('embed') !== '1') return;
-    const d = new URLSearchParams(location.search).get('vista') === '1' ? 30 : 165;
-    let pos = 0;
-    setInterval(() => { pos = (pos + 0.25) % d; oir('sp', pos, d, true); }, 250);
-    return;
-  }
-  const s = document.createElement('script');
-  s.src = 'https://open.spotify.com/embed/iframe-api/v1'; s.async = true;
-  document.head.appendChild(s);
-}
-
-window.onSpotifyIframeApiReady = api => {
-  api.createController($('sp'), { uri: SPOTIFY, width: '100%', height: 152 }, ctl => {
-    ctl.addListener('playback_update', e => {
-      const x = e.data;
-      oir('sp', x.position / 1000, x.duration / 1000, !x.isPaused && !x.isBuffering);
-    });
-  });
-};
-
-$('otro').onclick = () => limpiar();
-
-// --- cronómetro de la app de Spotify ---
 const ANDROID = /Android/i.test(navigator.userAgent);
 function abrirSpotify(e) {
   if (PRUEBA) { e && e.preventDefault(); return; } // en prueba no abre Spotify; el cronómetro corre ×10
