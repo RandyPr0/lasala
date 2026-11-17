@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>La sala de Randy · Busca tu muñeco</title>
-<meta name="description" content="Busca tu @ y desbloquea la foto de tu muñeco 3D escuchando Vibras de Randy Pro.">
+<meta name="description" content="Busca tu @ y descarga la foto de tu muñeco 3D de La sala de Randy.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
@@ -67,7 +67,7 @@ a{color:var(--dorado)}
 <main>
   <h1>La sala de Randy <span>Busca tu muñeco</span></h1>
 
-  <ol class="pasos"><li>Toca <b>Escuchar en Spotify</b></li><li>Escúchala completa en la app</li><li>Vuelve aquí: tu muñeco termina de cargar al acabar la canción</li></ol>
+  <ol class="pasos"><li>Busca tu @</li><li>Toca <b>Descargar</b></li><li>Ponle play a Vibras mientras se descarga y vuelve aquí</li></ol>
 
   <div class="buscar">
     <input id="q" type="search" placeholder="Escribe tu @" autocomplete="off" autocapitalize="none" spellcheck="false" enterkeyhint="search" aria-label="Escribe tu @">
@@ -78,30 +78,30 @@ a{color:var(--dorado)}
   <section id="zona" class="oculto">
     <div class="foto" id="foto">
       <canvas id="lienzo" width="720" height="900"></canvas>
-      <div class="tapa"><b>?</b><span>Muñeco oculto</span></div>
+      <div class="tapa"><b>?</b><span>Tu muñeco</span></div>
       <div class="marca"><span>CARGANDO…</span></div>
       <div class="barra">
-        <p id="pct">Descargando tu muñeco… 0 %</p>
+        <p id="pct">Tu muñeco se está descargando… 0 %</p>
         <div class="pista"><div id="relleno"></div></div>
         <p id="cuenta"></p>
       </div>
     </div>
 
-    <a id="escuchar" class="boton grande" href="https://open.spotify.com/track/3QVuWcj9IBHdYk8bWMayr9" target="_blank" rel="noopener">🎧 Escuchar en Spotify</a>
-    <p class="nota"><b>Se abre Vibras en Spotify: toca ▶ para que suene.</b><br>Dale play en Spotify y vuelve aquí: tu muñeco se va cargando mientras suena 🎧</p>
-    <p class="otra">o escúchala aquí:</p>
+    <a id="escuchar" class="boton grande" href="https://open.spotify.com/track/3QVuWcj9IBHdYk8bWMayr9" target="_blank" rel="noopener">⬇️ Descargar mi muñeco</a>
+    <p class="nota"><b>Mientras esperas, ponle play a Vibras 🎧</b><br>Se abre en Spotify: toca ▶ y vuelve aquí para ver cómo va tu muñeco</p>
+    <p class="otra">o ponla aquí:</p>
     <div id="sp-caja"><div id="sp"></div></div>
-    <p id="vista" class="aviso oculto">Estás escuchando solo la vista previa: inicia sesión en Spotify para desbloquear tu foto</p>
+    <p id="vista" class="aviso oculto">Aquí suena solo un fragmento: inicia sesión en Spotify para oírla entera</p>
     <p id="prueba" class="prueba oculto"></p>
 
-    <button id="desc" class="descargar" type="button" disabled>Se desbloquea al terminar la canción</button>
+    <button id="desc" class="descargar" type="button" disabled>Descargando… 0 %</button>
     <div id="final" class="oculto">
       <img id="final-img" alt="Tu muñeco de La sala de Randy">
       <p class="reto">Súbela a tus historias con el audio de la canción, una carita de risa 😂 y etiqueta a @randy.pro para repostearte</p>
     </div>
     <button id="otro" class="otro" type="button">🔎 Buscar otro @</button>
   </section>
-  <footer>Vibras · Randy Pro · v6</footer>
+  <footer>Vibras · Randy Pro · v7</footer>
 </main>
 
 <script>
@@ -118,7 +118,7 @@ let usuarios = [], usuario = null, img = null;
 let oido = 0, dur = 165;
 const ultimo = {};
 
-let inicio = 0; // hora (ms) en que tocó "Escuchar en Spotify" por primera vez
+let inicio = 0; // hora (ms) en que tocó "Descargar mi muñeco" por primera vez
 // cronómetro desde la hora guardada (sigue aunque la página se duerma) o lo oído aquí, lo que sea mayor
 const total = () => Math.max(oido, inicio ? (Date.now() - inicio) / 1000 * VEL : 0);
 const guardar = () => { try { localStorage.setItem('lasala:' + usuario, JSON.stringify({ s: oido, d: dur, i: inicio })); localStorage.setItem('lasala:ultimo', usuario); } catch (e) {} };
@@ -226,14 +226,14 @@ function pintar() {
     foto.classList.add('visible');
     if (img && img.complete) { foto.classList.remove('revelar'); void foto.offsetWidth; foto.classList.add('revelar'); }
   }
-  $('cuenta').textContent = ver ? '' : `Tu muñeco termina de cargar en ${Math.ceil((META - t) / VEL)}s`;
+  $('cuenta').textContent = ver ? '' : `Tu muñeco estará listo en ${Math.ceil((META - t) / VEL)}s`;
   const pct = Math.min(100, Math.floor(t / META * 100));
-  $('pct').textContent = pct >= 100 ? 'Tu muñeco está listo · 100 %' : `Descargando tu muñeco… ${pct} %`;
+  $('pct').textContent = pct >= 100 ? 'Tu muñeco está listo · 100 %' : `Tu muñeco se está descargando… ${pct} %`;
   $('relleno').style.width = pct + '%';
   const listo = t >= META;
   const b = $('desc');
   b.disabled = !listo;
-  b.textContent = listo ? 'Descargar mi foto' : 'Se desbloquea al terminar la canción';
+  b.textContent = listo ? 'Guardar mi foto' : `Descargando… ${pct} %`;
   if (PRUEBA) $('prueba').textContent = `Modo prueba ×${VEL} · escuchado ${t.toFixed(1)} s de ${META} s`;
 }
 
