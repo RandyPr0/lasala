@@ -202,26 +202,26 @@ function elegir(u) {
   pintar();
 }
 
-// --- oculto hasta 140 s, se aclara pixelado de 140 a 165 s, nítido a los 169 s ---
+// --- se aclara por capas durante toda la canción (bloques que se achican), nítido solo a los 169 s ---
 const lienzo = $('lienzo'), ctx = lienzo.getContext('2d');
 const chico = document.createElement('canvas'), cctx = chico.getContext('2d');
 function pintar() {
-  const t = total(), ver = t >= NITIDA, foto = $('foto'), p = Math.min(1, Math.max(0, (t - 140) / 25));
+  const t = total(), ver = t >= NITIDA, foto = $('foto'), p = Math.min(1, t / 165);
   if (img && img.complete && img.naturalWidth) {
     if (ver) {
       ctx.imageSmoothingEnabled = true;
       ctx.drawImage(img, 0, 0, 720, 900);
     } else {
-      // ponytail: como mucho 30 bloques de ancho + desenfoque: no se lee el @ antes de META
-      const w = Math.round(12 + 18 * p), h = Math.round(w * 1.25);
+      // de 3 bloques de ancho (240 px) a 17 (≈42 px de 720) a los 160 s: nunca se lee el @ antes de META
+      const w = Math.max(3, Math.floor(3 + 14.5 * p)), h = Math.round(w * 1.25);
       chico.width = w; chico.height = h;
       cctx.drawImage(img, 0, 0, w, h);
       ctx.imageSmoothingEnabled = false;
       ctx.drawImage(chico, 0, 0, w, h, 0, 0, 720, 900);
     }
   }
-  lienzo.style.filter = ver ? 'none' : `blur(${(16 - 10 * p).toFixed(1)}px) brightness(${(.45 + .4 * p).toFixed(2)}) saturate(${(.6 + .3 * p).toFixed(2)})`;
-  document.querySelector('.tapa').style.opacity = (1 - p).toFixed(2);
+  lienzo.style.filter = ver ? 'none' : `blur(${(18 - 13 * p).toFixed(1)}px) brightness(${(.55 + .35 * p).toFixed(2)}) saturate(${(.3 + .7 * p).toFixed(2)})`;
+  document.querySelector('.tapa').style.opacity = Math.max(0, 1 - p * 1.15).toFixed(2);
   if (ver && !foto.classList.contains('visible')) {
     foto.classList.add('visible');
     if (img && img.complete) { foto.classList.remove('revelar'); void foto.offsetWidth; foto.classList.add('revelar'); }
