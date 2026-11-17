@@ -84,7 +84,7 @@ a{color:var(--dorado)}
     </div>
 
     <a id="escuchar" class="boton grande" href="https://open.spotify.com/track/3QVuWcj9IBHdYk8bWMayr9" target="_blank" rel="noopener">🎧 Escuchar en Spotify</a>
-    <p class="nota">Dale play en Spotify y vuelve aquí: tu muñeco se va cargando mientras suena 🎧</p>
+    <p class="nota"><b>Se abre Vibras en Spotify: toca ▶ para que suene.</b><br>Dale play en Spotify y vuelve aquí: tu muñeco se va cargando mientras suena 🎧</p>
     <p class="otra">o escúchala aquí:</p>
     <div id="sp-caja"><div id="sp"></div></div>
     <p id="vista" class="aviso oculto">Estás escuchando solo la vista previa: inicia sesión en Spotify para desbloquear tu foto</p>
@@ -266,7 +266,13 @@ window.onSpotifyIframeApiReady = api => {
 $('escuchar').addEventListener('click', e => {
   if (!usuario) return;
   if (!inicio) { inicio = Date.now(); guardar(); }
-  if (PRUEBA) e.preventDefault(); // en prueba no abre Spotify; el cronómetro corre ×10
+  if (PRUEBA) { e.preventDefault(); return; } // en prueba no abre Spotify; el cronómetro corre ×10
+  if (/Android/i.test(navigator.userAgent)) {
+    // abre la canción directo en la app; si no está instalada, Android usa el https
+    e.preventDefault();
+    location.href = 'intent://track/3QVuWcj9IBHdYk8bWMayr9#Intent;scheme=spotify;package=com.spotify.music;S.browser_fallback_url=' +
+      encodeURIComponent('https://open.spotify.com/track/3QVuWcj9IBHdYk8bWMayr9') + ';end';
+  }
 });
 setInterval(() => { if (usuario && inicio && document.visibilityState === 'visible') pintar(); }, 250);
 document.addEventListener('visibilitychange', () => { if (usuario) pintar(); });
