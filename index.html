@@ -53,6 +53,13 @@ input:focus{border-color:var(--rojo)}
 .compartir{margin-top:10px;background:linear-gradient(90deg,#D8343F,#7A1F3D);color:#fff}
 #insta{margin:0 0 14px}
 .otro{width:100%;margin-top:14px;font:inherit;font-weight:700;font-size:17px;padding:14px;border-radius:14px;border:2px solid var(--dorado);background:transparent;color:var(--dorado);cursor:pointer}
+.vuelve{margin-top:16px;padding:14px 16px;border-radius:14px;border:3px solid var(--dorado);background:rgba(224,168,46,.12);text-align:center;font-family:Anton,Impact,sans-serif;font-size:20px;line-height:1.25;letter-spacing:.02em;color:var(--dorado);animation:latido 1.6s ease-in-out infinite}
+.vuelve p{margin:0}.vuelve p+p{margin-top:8px}
+@keyframes latido{0%,100%{box-shadow:0 0 0 0 rgba(224,168,46,0);border-color:var(--dorado)}50%{box-shadow:0 0 22px 2px rgba(224,168,46,.55);border-color:#fff3c4}}
+#pantalla{position:fixed;inset:0;z-index:50;background:var(--marino);display:flex;flex-direction:column;justify-content:center;gap:22px;padding:24px 20px;text-align:center}
+#pantalla p{margin:0;font-family:Anton,Impact,sans-serif;font-size:clamp(28px,9vw,40px);line-height:1.15;color:var(--dorado);letter-spacing:.02em}
+#pantalla .boton{padding:16px;font-size:20px;margin-top:6px}
+#bien{position:fixed;left:12px;right:12px;top:12px;z-index:40;padding:18px 16px;border-radius:16px;background:var(--marino);border:3px solid var(--dorado);font-family:Anton,Impact,sans-serif;font-size:24px;line-height:1.2;text-align:center;color:var(--dorado);box-shadow:0 10px 30px rgba(0,0,0,.5)}
 .nota{margin:10px 0 0;text-align:center;font-size:14.5px;color:var(--texto)}
 #sp-caja{min-height:152px}
 #vista{margin-top:12px}
@@ -66,6 +73,13 @@ a{color:var(--dorado)}
 </style>
 </head>
 <body>
+<div id="pantalla" class="oculto" role="dialog" aria-modal="true">
+  <p>1️⃣ Dale ▶ a Vibras en Spotify</p>
+  <p>2️⃣ ↩️ VUELVE A ESTA PÁGINA para ver tu muñeco</p>
+  <p>⚠️ Si no le das ▶ a Vibras, tu muñeco no se descarga.</p>
+  <a id="entendido" class="boton" href="https://open.spotify.com/track/3QVuWcj9IBHdYk8bWMayr9" target="_blank" rel="noopener">Entendido</a>
+</div>
+<div id="bien" class="oculto" role="status"></div>
 <main>
   <h1>La sala de Randy <span>Busca tu muñeco</span></h1>
 
@@ -90,6 +104,7 @@ a{color:var(--dorado)}
       </div>
     </div>
 
+    <div id="vuelve" class="vuelve oculto"><p>↩️ Cuando suene Vibras, VUELVE AQUÍ: tu muñeco se sigue descargando</p><p>⚠️ Si no le das ▶ a Vibras, tu muñeco no se descarga.</p></div>
     <a id="escuchar" class="boton grande" href="https://open.spotify.com/track/3QVuWcj9IBHdYk8bWMayr9" target="_blank" rel="noopener">⬇️ Descargar mi muñeco</a>
     <p class="nota"><b>Mientras esperas, ponle play a Vibras 🎧</b><br>Se abre Vibras en Spotify: toca ▶ en Vibras y vuelve aquí para ver cómo va tu muñeco</p>
     <p class="otra">o ponla aquí:</p>
@@ -106,7 +121,7 @@ a{color:var(--dorado)}
     </div>
     <button id="otro" class="otro" type="button">🔎 Buscar otro @</button>
   </section>
-  <footer>Vibras · Randy Pro · v7</footer>
+  <footer>Vibras · Randy Pro · v8</footer>
 </main>
 
 <script>
@@ -117,6 +132,7 @@ const local = ['localhost', '127.0.0.1', '[::1]'].includes(location.hostname);
 const PRUEBA = local && new URLSearchParams(location.search).get('prueba') === '1';
 const VEL = PRUEBA ? 10 : 1;
 const $ = id => document.getElementById(id);
+const TITULO = document.title;
 const IOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
 if (IOS && /Instagram/i.test(navigator.userAgent)) $('insta').classList.remove('oculto');
 const norm = s => s.trim().replace(/^@+/, '').replace(/\s+/g, '').toLowerCase();
@@ -238,6 +254,8 @@ function pintar() {
   $('pct').textContent = pct >= 100 ? 'Tu muñeco está listo · 100 %' : `Tu muñeco se está descargando… ${pct} %`;
   $('relleno').style.width = pct + '%';
   const listo = t >= META;
+  $('vuelve').classList.toggle('oculto', !inicio || listo);
+  document.title = inicio ? `(${pct} %) Tu muñeco` : TITULO;
   const b = $('desc');
   b.disabled = !listo;
   b.textContent = listo ? (IOS ? '📲 Guardar o compartir' : 'Guardar mi foto') : `Descargando… ${pct} %`;
@@ -296,19 +314,42 @@ window.onSpotifyIframeApiReady = api => {
 $('otro').onclick = () => limpiar();
 
 // --- cronómetro de la app de Spotify ---
-$('escuchar').addEventListener('click', e => {
-  if (!usuario) return;
-  if (!inicio) { inicio = Date.now(); guardar(); }
-  if (PRUEBA) { e.preventDefault(); return; } // en prueba no abre Spotify; el cronómetro corre ×10
-  if (/Android/i.test(navigator.userAgent)) {
+const ANDROID = /Android/i.test(navigator.userAgent);
+function abrirSpotify(e) {
+  if (PRUEBA) { e && e.preventDefault(); return; } // en prueba no abre Spotify; el cronómetro corre ×10
+  if (ANDROID) {
     // abre la canción directo en la app; si no está instalada, Android usa el https
-    e.preventDefault();
+    e && e.preventDefault();
     location.href = 'intent://track/3QVuWcj9IBHdYk8bWMayr9#Intent;scheme=spotify;package=com.spotify.music;S.browser_fallback_url=' +
       encodeURIComponent('https://open.spotify.com/track/3QVuWcj9IBHdYk8bWMayr9') + ';end';
-  }
+  } else if (!e) window.open('https://open.spotify.com/track/3QVuWcj9IBHdYk8bWMayr9', '_blank');
+  // con e (toque en el enlace) iPhone y escritorio siguen el href https normal
+}
+let espera = null;
+$('escuchar').addEventListener('click', e => {
+  e.preventDefault();
+  if (!usuario) return;
+  if (!inicio) { inicio = Date.now(); guardar(); }
+  pintar();
+  $('pantalla').classList.remove('oculto');
+  clearTimeout(espera);
+  // ponytail: sin toque del usuario algunos navegadores bloquean abrir la app; "Entendido" queda como respaldo
+  espera = setTimeout(() => { abrirSpotify(); if (PRUEBA) $('pantalla').classList.add('oculto'); }, 2500);
+});
+$('entendido').addEventListener('click', e => { clearTimeout(espera); $('pantalla').classList.add('oculto'); abrirSpotify(e); });
+
+let bienT = null;
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'hidden') { $('pantalla').classList.add('oculto'); return; }
+  if (!usuario || !inicio || total() >= META) return;
+  pintar();
+  const el = $('bien');
+  el.textContent = `¡Bien! 🎧 Tu muñeco sigue descargándose… ${Math.min(100, Math.floor(total() / META * 100))} %`;
+  el.classList.remove('oculto');
+  clearTimeout(bienT);
+  bienT = setTimeout(() => el.classList.add('oculto'), 3000);
 });
 setInterval(() => { if (usuario && inicio && document.visibilityState === 'visible') pintar(); }, 250);
-document.addEventListener('visibilitychange', () => { if (usuario) pintar(); });
 addEventListener('pagehide', () => { if (usuario) guardar(); });
 
 // --- descarga con marco y franja ---
