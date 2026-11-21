@@ -15,12 +15,44 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"05val2": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=05val2",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"0dalis_89": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=0dalis_89",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "10.agvvstnn": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=10.agvvstnn",
 "etiquetas": 0,
 "fila": 10,
 "puesto": "pidió VIP: lleva 0 de 5 etiquetas",
+"ya_tiene_muneco": true
+},
+"10.ayrtoon": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=10.ayrtoon",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"10.grossmann": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=10.grossmann",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "11mk779": {
@@ -31,12 +63,52 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"12345kevin748": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=12345kevin748",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"13.tinncitoojjv": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=13.tinncitoojjv",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"16047f": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=16047f",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "170915.aj": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=170915.aj",
 "etiquetas": 0,
 "fila": 12,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"17_elian_02": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=17_elian_02",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"1996joseluislewis": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=1996joseluislewis",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "22.jero_": {
@@ -68,7 +140,39 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=27da_.rm",
 "etiquetas": 0,
 "fila": 16,
-"puesto": "pidió banda (cantar con el): le falta comentar una frase de la canción",
+"puesto": "pidió banda (cantar con el)",
+"ya_tiene_muneco": true
+},
+"28.39.25.65": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=28.39.25.65",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"32.dylan_08": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=32.dylan_08",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"32fran_04": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=32fran_04",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"3992valentin": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=3992valentin",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "3zman.s7": {
@@ -77,6 +181,22 @@
 "etiquetas": 0,
 "fila": 9,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"4321chiri4321": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=4321chiri4321",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"432issac": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=432issac",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "4nt0_333_": {
@@ -151,6 +271,22 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"_.tuu.ecuatorianoo._": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=_.tuu.ecuatorianoo._",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"_12_444_73_37__": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=_12_444_73_37__",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "_32santii__": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=_32santii__",
@@ -167,6 +303,14 @@
 "puesto": "baile con su pareja @yurix_xx09 confirmado",
 "ya_tiene_muneco": true
 },
+"__.mxtixxs.__": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=__.mxtixxs.__",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "___mmedinaa": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=___mmedinaa",
@@ -180,7 +324,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=__mateoct__",
 "etiquetas": 0,
 "fila": 5,
-"puesto": "pidió banda (batería): le falta comentar una frase de la canción",
+"puesto": "pidió banda (batería)",
 "ya_tiene_muneco": true
 },
 "__mati_fernandez": {
@@ -191,12 +335,28 @@
 "puesto": "pidió equipo (vj e iluminador): le falta comentar una frase de la canción",
 "ya_tiene_muneco": true
 },
+"__ruppen": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=__ruppen",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "__segundo_13": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=__segundo_13",
 "etiquetas": 0,
 "fila": 9,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"__xxlujangomez15_": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=__xxlujangomez15_",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "_alexiinss": {
@@ -223,6 +383,22 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"_antuan_klk": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=_antuan_klk",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"_benja.sarabia__": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=_benja.sarabia__",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "_cronxbc_": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=_cronxbc_",
@@ -239,6 +415,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"_higuera05": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=_higuera05",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "_iambryan2": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=_iambryan2",
@@ -247,12 +431,36 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"_jadu2017_": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=_jadu2017_",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"_l7.santos": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=_l7.santos",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "_lauraamartiin_": {
 "cartel": true,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=_lauraamartiin_",
 "etiquetas": 0,
 "fila": 11,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"_little_zer_": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=_little_zer_",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "_luissojedaa_27": {
@@ -287,12 +495,20 @@
 "puesto": "asiento",
 "ya_tiene_muneco": false
 },
+"_mjp_297": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=_mjp_297",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "_ricardoflorentin_": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=_ricardoflorentin_",
 "etiquetas": 0,
 "fila": 1,
-"puesto": "pidió banda (batería (lleno)): le falta comentar una frase de la canción",
+"puesto": "pidió banda (batería (lleno))",
 "ya_tiene_muneco": true
 },
 "_romannn.23": {
@@ -301,6 +517,14 @@
 "etiquetas": 0,
 "fila": 7,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"_romerolautaro": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=_romerolautaro",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "_sofiisabell": {
@@ -343,6 +567,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"_whois.castro_": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=_whois.castro_",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "_whossebas_1": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=_whossebas_1",
@@ -365,6 +597,14 @@
 "etiquetas": 0,
 "fila": 14,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"a_nao18": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=a_nao18",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "aaron_ibz34": {
@@ -431,6 +671,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"acho.n1": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=acho.n1",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "acristophereleazar": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=acristophereleazar",
@@ -445,6 +693,14 @@
 "etiquetas": 0,
 "fila": 10,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"adam.44444432": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=adam.44444432",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "adam013901": {
@@ -495,6 +751,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": false
 },
+"adrianaoterogonzalez": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=adrianaoterogonzalez",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "adrianquevedorodriguez": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=adrianquevedorodriguez",
@@ -517,6 +781,22 @@
 "etiquetas": 0,
 "fila": 6,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"agudelo_.111": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=agudelo_.111",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"aguilarjuanma20": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=aguilarjuanma20",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "aguilatema": {
@@ -543,6 +823,22 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"ahmad_faturrahman2020": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ahmad_faturrahman2020",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"ainadymorales": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ainadymorales",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "aisbeltorre": {
 "cartel": false,
 "enlace_muneco": null,
@@ -550,6 +846,14 @@
 "fila": 17,
 "puesto": "asiento",
 "ya_tiene_muneco": false
+},
+"aitanitaa659": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=aitanitaa659",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
 },
 "aithanamugersia": {
 "cartel": false,
@@ -567,6 +871,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"aka.ivaan05": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=aka.ivaan05",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "ala_njoao": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=ala_njoao",
@@ -575,12 +887,52 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"alain_1046": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=alain_1046",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"alan_dechill": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=alan_dechill",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "alanantoniopreciado": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=alanantoniopreciado",
 "etiquetas": 0,
 "fila": 16,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"albambetz": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=albambetz",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"albavero.777": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=albavero.777",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"albert_el_poder": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=albert_el_poder",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "albertodrumline": {
@@ -639,12 +991,28 @@
 "puesto": "VIP confirmado",
 "ya_tiene_muneco": true
 },
+"alejandro.avelar16": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=alejandro.avelar16",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "alejandro_el_evangelista": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=alejandro_el_evangelista",
 "etiquetas": 0,
 "fila": 7,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"alejandrogonzalez34926": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=alejandrogonzalez34926",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "alejandromolinadespaine": {
@@ -661,6 +1029,14 @@
 "etiquetas": 0,
 "fila": 9,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"alejandroreyes6482": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=alejandroreyes6482",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "alejo__ip": {
@@ -695,6 +1071,38 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"alex_garcia_14": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=alex_garcia_14",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"alex_is_02": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=alex_is_02",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"alex_ortiz__10": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=alex_ortiz__10",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"alexa2013_8": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=alexa2013_8",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "alexandara.garcia": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=alexandara.garcia",
@@ -716,7 +1124,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=alexander2013881",
 "etiquetas": 0,
 "fila": 7,
-"puesto": "pidió banda (tocar guitarra): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar guitarra)",
 "ya_tiene_muneco": true
 },
 "alexandergomez1893": {
@@ -735,12 +1143,68 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"alexdanielrodriguezherreria": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=alexdanielrodriguezherreria",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"alexis.rivera_09": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=alexis.rivera_09",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"alexis20_17": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=alexis20_17",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"alexis238489235": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=alexis238489235",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "alexis_jon8": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=alexis_jon8",
 "etiquetas": 0,
 "fila": 10,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"alexis_reyes810": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=alexis_reyes810",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"alexjose1414": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=alexjose1414",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"alexwhochoficial": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=alexwhochoficial",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "alexx_13k": {
@@ -775,12 +1239,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"alkk____77d55": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=alkk____77d55",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "allison374061": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=allison374061",
 "etiquetas": 0,
 "fila": 9,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"altinaydavid": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=altinaydavid",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "alvarolafiguraa": {
@@ -791,12 +1271,20 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"alvinfandll_010": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=alvinfandll_010",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "amancio_yairon_r1": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=amancio_yairon_r1",
 "etiquetas": 0,
 "fila": 13,
-"puesto": "pidió banda (ser de la banda): le falta comentar una frase de la canción",
+"puesto": "pidió banda (ser de la banda)",
 "ya_tiene_muneco": true
 },
 "amaravirginiacoreahernandez": {
@@ -807,6 +1295,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"amirhalabi26": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=amirhalabi26",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "amle.onel": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=amle.onel",
@@ -815,12 +1311,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"amymargaritahernandez": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=amymargaritahernandez",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "amzari_bloqueado": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=amzari_bloqueado",
 "etiquetas": 0,
 "fila": 16,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"an3m.ia": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=an3m.ia",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "ana1019123": {
@@ -871,12 +1383,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"anamarin0271": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=anamarin0271",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"and.rxs2012": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=and.rxs2012",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "ander_v.c.01": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=ander_v.c.01",
 "etiquetas": 0,
 "fila": 10,
-"puesto": "pidió banda (baterista): le falta comentar una frase de la canción",
+"puesto": "pidió banda (baterista)",
 "ya_tiene_muneco": true
 },
 "andersen_utrera01": {
@@ -903,6 +1431,14 @@
 "puesto": "pidió VIP: lleva 0 de 5 etiquetas",
 "ya_tiene_muneco": true
 },
+"andresucros00": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=andresucros00",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "andreuchi6338": {
 "cartel": false,
 "enlace_muneco": null,
@@ -919,12 +1455,52 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"andy_casanovaaa": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=andy_casanovaaa",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"ang_.jvr": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ang_.jvr",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "angel23yunior777": {
 "cartel": true,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=angel23yunior777",
 "etiquetas": 0,
 "fila": null,
 "puesto": "banda (ser pianista) confirmado",
+"ya_tiene_muneco": true
+},
+"angel3279468": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=angel3279468",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"angel_estrada_051": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=angel_estrada_051",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"angel_lovers000": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=angel_lovers000",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "angelaramirez2969": {
@@ -935,6 +1511,22 @@
 "puesto": "pidió VIP: lleva 0 de 5 etiquetas",
 "ya_tiene_muneco": true
 },
+"angelito__mami": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=angelito__mami",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"angelojeremy.x": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=angelojeremy.x",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "angelrafaeltolentinovicente": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=angelrafaeltolentinovicente",
@@ -943,12 +1535,52 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"angelsamniego6": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=angelsamniego6",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"angely21650": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=angely21650",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"angycalaenfokt": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=angycalaenfokt",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "anibalcamposofi": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=anibalcamposofi",
 "etiquetas": 0,
 "fila": 5,
-"puesto": "pidió banda (tocar guitarra): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar guitarra)",
+"ya_tiene_muneco": true
+},
+"anital0713": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=anital0713",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"anti_madrilista_nako": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=anti_madrilista_nako",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "anticucas3000": {
@@ -983,6 +1615,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": false
 },
+"anxoclementealonso3": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=anxoclementealonso3",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "anyel_joce_chao_lam": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=anyel_joce_chao_lam",
@@ -1004,7 +1644,23 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=apri_lrodr",
 "etiquetas": 0,
 "fila": 12,
-"puesto": "pidió banda (pollito rosa con plumitas): le falta comentar una frase de la canción",
+"puesto": "pidió banda (pollito rosa con plumitas)",
+"ya_tiene_muneco": true
+},
+"arellano_266": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=arellano_266",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"aress_adh": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=aress_adh",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "arielfigueroa20": {
@@ -1015,12 +1671,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"arielyafethvaca": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=arielyafethvaca",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "arnulfomaritnez": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=arnulfomaritnez",
 "etiquetas": 0,
 "fila": 6,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"asereeeeee_influence_": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=asereeeeee_influence_",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "ashley_michel_1217": {
@@ -1039,12 +1711,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"asiercasanovagarcia": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=asiercasanovagarcia",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "asniel_js": {
 "cartel": true,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=asniel_js",
 "etiquetas": 0,
 "fila": null,
 "puesto": "banda (ser el de la batería) confirmado",
+"ya_tiene_muneco": true
+},
+"asoraled_r": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=asoraled_r",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "atinio2": {
@@ -1103,6 +1791,22 @@
 "puesto": "pidió VIP: lleva 0 de 5 etiquetas",
 "ya_tiene_muneco": true
 },
+"axelvelazquez676757": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=axelvelazquez676757",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"axzelsantos94": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=axzelsantos94",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "aylecito_2.5": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=aylecito_2.5",
@@ -1119,6 +1823,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"b.r.i.t.a.n.y.n.i.c.o.l": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=b.r.i.t.a.n.y.n.i.c.o.l",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "badger.8772755": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=badger.8772755",
@@ -1133,6 +1845,22 @@
 "etiquetas": 0,
 "fila": 16,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"baltazar33933": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=baltazar33933",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"barbaravictoria.09": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=barbaravictoria.09",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "barrerasanthi": {
@@ -1159,6 +1887,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"bauti_musix": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=bauti_musix",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "be_witch3": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=be_witch3",
@@ -1175,12 +1911,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"bejarano_maykel": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=bejarano_maykel",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "belen12086": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=belen12086",
 "etiquetas": 0,
 "fila": 5,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"belindagaesia": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=belindagaesia",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "bella_almm": {
@@ -1255,6 +2007,14 @@
 "puesto": "pidió VIP: lleva 11 de 5 etiquetas; pidió VIP Supremo: lleva 11 de 10 etiquetas (lo demás lo confirma Randy)",
 "ya_tiene_muneco": true
 },
+"blackdoom444_trono": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=blackdoom444_trono",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "blaki_1600": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=blaki_1600",
@@ -1271,12 +2031,36 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"bnnicep": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=bnnicep",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"botsito6383": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=botsito6383",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "bradpitttom": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=bradpitttom",
 "etiquetas": 0,
 "fila": 16,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"brainner_quiros1593": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=brainner_quiros1593",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "brandon685857": {
@@ -1293,6 +2077,14 @@
 "etiquetas": 0,
 "fila": 9,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"brau1031": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=brau1031",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "bray_jafeth": {
@@ -1351,12 +2143,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"bruacevedo4": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=bruacevedo4",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "bruno1420.20": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=bruno1420.20",
 "etiquetas": 0,
 "fila": 12,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"bruno219411": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=bruno219411",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "bruno_hadid08": {
@@ -1367,12 +2175,36 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"bruno_shelby12": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=bruno_shelby12",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"brunoespinozax": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=brunoespinozax",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "brunofrizone": {
 "cartel": true,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=brunofrizone",
 "etiquetas": 0,
 "fila": 7,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"bry4nt_pv": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=bry4nt_pv",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "bullgbeatsoficial": {
@@ -1391,12 +2223,60 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"burgos17107": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=burgos17107",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "bust.osjeses7": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=bust.osjeses7",
 "etiquetas": 0,
 "fila": 13,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"bustosjesusnyo": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=bustosjesusnyo",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"byaracena": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=byaracena",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"cale12234": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=cale12234",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"camasolar24": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=camasolar24",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"cami_lo0819": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=cami_lo0819",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "camiilo_aa": {
@@ -1407,6 +2287,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"camila7112332": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=camila7112332",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "camilaalessandrachavezlicon": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=camilaalessandrachavezlicon",
@@ -1415,12 +2303,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"camilosanchez__2348": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=camilosanchez__2348",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "candidapolonia": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=candidapolonia",
 "etiquetas": 0,
 "fila": 2,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"cantu.valentino": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=cantu.valentino",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "caracas_shoesdf": {
@@ -1437,6 +2341,14 @@
 "etiquetas": 0,
 "fila": 6,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"carlbjvkh": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=carlbjvkh",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "carlosalexiscalpanancanao": {
@@ -1463,12 +2375,36 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"carlospantojaavila": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=carlospantojaavila",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "carlosx.21.09": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=carlosx.21.09",
 "etiquetas": 0,
 "fila": 12,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"carmen61745": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=carmen61745",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"carmen70733": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=carmen70733",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "carmen__chang_": {
@@ -1493,6 +2429,14 @@
 "etiquetas": 0,
 "fila": 8,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"carrenovalerin": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=carrenovalerin",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "carvajal_yandel": {
@@ -1527,6 +2471,22 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"cesarjarassuarez": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=cesarjarassuarez",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"chanderbaezpena": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=chanderbaezpena",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "chatillo.jx": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=chatillo.jx",
@@ -1543,12 +2503,52 @@
 "puesto": "pidió equipo (dj): le falta comentar una frase de la canción",
 "ya_tiene_muneco": true
 },
+"chavarroanyi": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=chavarroanyi",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"chef.albertogoar": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=chef.albertogoar",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"chico_andy0880": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=chico_andy0880",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"chimalhuacan2008": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=chimalhuacan2008",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "chiquilincp": {
 "cartel": true,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=chiquilincp",
 "etiquetas": 0,
 "fila": null,
 "puesto": "banda (tocar la guitarra) confirmado",
+"ya_tiene_muneco": true
+},
+"chocolatepuente": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=chocolatepuente",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "chrisand_oficiall": {
@@ -1567,6 +2567,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"chxrlin_20": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=chxrlin_20",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "cirilo65125": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=cirilo65125",
@@ -1575,12 +2583,44 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"cirogael_11": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=cirogael_11",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"cirosoto123": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=cirosoto123",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "claraleimiranda": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=claraleimiranda",
 "etiquetas": 0,
 "fila": 1,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"claudia1988_deben": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=claudia1988_deben",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"claum_ely": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=claum_ely",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "cleudi_45": {
@@ -1671,6 +2711,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"cristiaaannn____": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=cristiaaannn____",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "cristian_123456789101112131415": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=cristian_123456789101112131415",
@@ -1687,12 +2735,20 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"cristobaaaal.10102": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=cristobaaaal.10102",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "cristopher.jairo": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=cristopher.jairo",
 "etiquetas": 0,
 "fila": 7,
-"puesto": "pidió banda (ser el batería): le falta comentar una frase de la canción",
+"puesto": "pidió banda (ser el batería)",
 "ya_tiene_muneco": true
 },
 "crixx09875": {
@@ -1717,6 +2773,14 @@
 "etiquetas": 0,
 "fila": null,
 "puesto": "equipo (dj) confirmado",
+"ya_tiene_muneco": true
+},
+"cw_carlxs_777_": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=cw_carlxs_777_",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "daanii.cutiee": {
@@ -1759,12 +2823,44 @@
 "puesto": "baile con su pareja  confirmado",
 "ya_tiene_muneco": true
 },
+"damiannn8950": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=damiannn8950",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"danay8887": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=danay8887",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "danelysmatamoros": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=danelysmatamoros",
 "etiquetas": 0,
 "fila": 4,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"dani.jaenn": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=dani.jaenn",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"danialecciusvensan": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=danialecciusvensan",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "daniel628lop302_1": {
@@ -1775,12 +2871,60 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"daniel928272819": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=daniel928272819",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"daniel978253.18": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=daniel978253.18",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"daniel__toyss": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=daniel__toyss",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"daniel_moises_murga_solorsano": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=daniel_moises_murga_solorsano",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "danillcardenas": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=danillcardenas",
 "etiquetas": 0,
 "fila": 12,
-"puesto": "pidió banda (guitarrista): le falta comentar una frase de la canción",
+"puesto": "pidió banda (guitarrista)",
+"ya_tiene_muneco": true
+},
+"danilodg20": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=danilodg20",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"dantecg93": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=dantecg93",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "daopi_zr": {
@@ -1831,6 +2975,38 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"dariel_x_cuba": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=dariel_x_cuba",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"darinxr_mkl": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=darinxr_mkl",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"dariojoveroficial": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=dariojoveroficial",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"darkiel.andres12": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=darkiel.andres12",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "darrismoyaveliz": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=darrismoyaveliz",
@@ -1845,6 +3021,14 @@
 "etiquetas": 1,
 "fila": 10,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"david7884691": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=david7884691",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "david_s_world": {
@@ -1863,12 +3047,36 @@
 "puesto": "banda (tocar trombón) confirmado",
 "ya_tiene_muneco": true
 },
+"davidexperiex": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=davidexperiex",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "davidsigueajesus": {
 "cartel": true,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=davidsigueajesus",
 "etiquetas": 0,
 "fila": 10,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"davidtorresliciaga": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=davidtorresliciaga",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"dayla.queen93": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=dayla.queen93",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "dberriolanda": {
@@ -1887,12 +3095,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"deck44821": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=deck44821",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"decoroyari": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=decoroyari",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "deiiom69": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=deiiom69",
 "etiquetas": 0,
 "fila": 12,
-"puesto": "pidió banda (hacer pistas para canciones): le falta comentar una frase de la canción",
+"puesto": "pidió banda (hacer pistas para canciones)",
 "ya_tiene_muneco": true
 },
 "deivit950": {
@@ -1911,6 +3135,38 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"deleongimena97": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=deleongimena97",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"denise_saga2021": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=denise_saga2021",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"denji_xd_blue_lock": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=denji_xd_blue_lock",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"derekhdz13": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=derekhdz13",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "dgtp01": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=dgtp01",
@@ -1919,12 +3175,68 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"di3g0_2620": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=di3g0_2620",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "diamondzzzeta": {
 "cartel": true,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=diamondzzzeta",
 "etiquetas": 0,
 "fila": null,
 "puesto": "banda (tu y yo) confirmado",
+"ya_tiene_muneco": true
+},
+"diana.saldarriagag": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=diana.saldarriagag",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"diana_robles_ochoa201": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=diana_robles_ochoa201",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"dianelis_diaz84": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=dianelis_diaz84",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"dianilusirenita_": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=dianilusirenita_",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"die.gxllz": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=die.gxllz",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"diego.joaquin27": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=diego.joaquin27",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "diegorn13": {
@@ -1948,7 +3260,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=diegox.77pe",
 "etiquetas": 0,
 "fila": 5,
-"puesto": "pidió banda (tocar trompeta): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar trompeta)",
 "ya_tiene_muneco": true
 },
 "diegxzz.76": {
@@ -1959,12 +3271,28 @@
 "puesto": "pidió equipo (guardaespaldas de trompetas): le falta comentar una frase de la canción",
 "ya_tiene_muneco": true
 },
+"digna53403": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=digna53403",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "dinoraaba": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=dinoraaba",
 "etiquetas": 0,
 "fila": 7,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"diomaris.pacheco": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=diomaris.pacheco",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "diomedesmorales_": {
@@ -1975,6 +3303,30 @@
 "puesto": "banda (percusionista completo) confirmado",
 "ya_tiene_muneco": true
 },
+"dionelasimmons": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=dionelasimmons",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"dirty.doggj": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=dirty.doggj",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"dj_cale44": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=dj_cale44",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "dkilgore_01": {
 "cartel": true,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=dkilgore_01",
@@ -1983,12 +3335,36 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"dnll_xht": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=dnll_xht",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "donova2319": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=donova2319",
 "etiquetas": 0,
 "fila": 10,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"dorajimenez502": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=dorajimenez502",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"doria_964": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=doria_964",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "dorix_flow": {
@@ -2012,7 +3388,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=doyner.5885",
 "etiquetas": 0,
 "fila": 13,
-"puesto": "pidió banda (guitarra (lleno)): le falta comentar una frase de la canción",
+"puesto": "pidió banda (guitarra (lleno))",
 "ya_tiene_muneco": true
 },
 "dphotography.studios_": {
@@ -2031,6 +3407,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"dray97og": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=dray97og",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "dulvinrijo": {
 "cartel": false,
 "enlace_muneco": null,
@@ -2038,6 +3422,22 @@
 "fila": 17,
 "puesto": "asiento",
 "ya_tiene_muneco": false
+},
+"duniahernandezaragon": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=duniahernandezaragon",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"duvan2013": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=duvan2013",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
 },
 "dventura5916": {
 "cartel": false,
@@ -2063,12 +3463,36 @@
 "puesto": "pidió VIP: lleva 0 de 5 etiquetas",
 "ya_tiene_muneco": true
 },
+"dylan_ap_02": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=dylan_ap_02",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "dylanelcontentoso": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=dylanelcontentoso",
 "etiquetas": 0,
 "fila": 16,
 "puesto": "pidió VIP: lleva 0 de 5 etiquetas",
+"ya_tiene_muneco": true
+},
+"dylanlozaalvarado": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=dylanlozaalvarado",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"dylanperdomo03": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=dylanperdomo03",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "dylanx223": {
@@ -2092,7 +3516,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=dylvn_2121",
 "etiquetas": 0,
 "fila": 5,
-"puesto": "pidió banda (tocar el tambor): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar el tambor)",
 "ya_tiene_muneco": true
 },
 "e.perez47": {
@@ -2111,6 +3535,22 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"eddypolanco787": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=eddypolanco787",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"edgar164142": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=edgar164142",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "edgardo.marcelino.rv": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=edgardo.marcelino.rv",
@@ -2124,7 +3564,31 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=edmanpop",
 "etiquetas": 0,
 "fila": 1,
-"puesto": "pidió banda (tocar el bajo): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar el bajo)",
+"ya_tiene_muneco": true
+},
+"edw.xn67": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=edw.xn67",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"edwa.m24": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=edwa.m24",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"edwin22480": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=edwin22480",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "edwing047": {
@@ -2141,6 +3605,14 @@
 "etiquetas": 0,
 "fila": 6,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"edy_jean09": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=edy_jean09",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "eidaneden": {
@@ -2180,7 +3652,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=el_conita_oficial",
 "etiquetas": 0,
 "fila": 14,
-"puesto": "pidió banda (bajista): le falta comentar una frase de la canción",
+"puesto": "pidió banda (bajista)",
 "ya_tiene_muneco": true
 },
 "el_del_0880_": {
@@ -2207,6 +3679,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"el_loko_lkt": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=el_loko_lkt",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "el_lunathiago": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=el_lunathiago",
@@ -2221,6 +3701,22 @@
 "etiquetas": 0,
 "fila": 1,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"el_mayorista_nsl": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=el_mayorista_nsl",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"el_nene248": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=el_nene248",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "el_papu_0228": {
@@ -2245,6 +3741,14 @@
 "etiquetas": 0,
 "fila": 9,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"el_simpatico33333": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=el_simpatico33333",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "el_t0balmj": {
@@ -2279,6 +3783,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"eliajazmin.lopezlandin.7": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=eliajazmin.lopezlandin.7",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "eliana_310825": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=eliana_310825",
@@ -2303,12 +3815,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": false
 },
+"elissa.beta.tellez": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=elissa.beta.tellez",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "eliza.ar3": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=eliza.ar3",
 "etiquetas": 0,
 "fila": 3,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"elizabethcolladoquintana": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=elizabethcolladoquintana",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "elizabethvazquezmillan": {
@@ -2335,6 +3863,22 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"elmaspro9091099": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=elmaspro9091099",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"elmateo1913": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=elmateo1913",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "elme_chitas": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=elme_chitas",
@@ -2351,6 +3895,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"elpi.tux": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=elpi.tux",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "elpitermo": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=elpitermo",
@@ -2359,12 +3911,44 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"elpollesito2026": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=elpollesito2026",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "elroycol": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=elroycol",
 "etiquetas": 0,
 "fila": 3,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"elsy_ariana_diaz_celdo": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=elsy_ariana_diaz_celdo",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"eltumba_abuelitas714": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=eltumba_abuelitas714",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"ely0531951": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ely0531951",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "ely_mg3": {
@@ -2383,12 +3967,44 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"emalve_2014": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=emalve_2014",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"emanuel28783": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=emanuel28783",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "emascarado1.0": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=emascarado1.0",
 "etiquetas": 0,
 "fila": 1,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"emavalentinasantana": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=emavalentinasantana",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"emi__dlro17": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=emi__dlro17",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "emilionocompradorde": {
@@ -2415,6 +4031,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"emisitodel": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=emisitodel",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "emmainsa13": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=emmainsa13",
@@ -2423,12 +4047,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"emmi.montt": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=emmi.montt",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "enanin.33xd": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=enanin.33xd",
 "etiquetas": 0,
 "fila": 14,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"eniell16": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=eniell16",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "entrepaginasconalma": {
@@ -2444,7 +4084,23 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=enzorosado01",
 "etiquetas": 0,
 "fila": 8,
-"puesto": "pidió banda (baterista): le falta comentar una frase de la canción",
+"puesto": "pidió banda (baterista)",
+"ya_tiene_muneco": true
+},
+"epica_del_futbol": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=epica_del_futbol",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"erick.simons.148": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=erick.simons.148",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "erick_shvz": {
@@ -2455,12 +4111,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"erickemiliogodinezs": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=erickemiliogodinezs",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "erickga1250": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=erickga1250",
 "etiquetas": 0,
 "fila": 17,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"erickjoserosa": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=erickjoserosa",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "erics_xdqi": {
@@ -2485,6 +4157,22 @@
 "etiquetas": 0,
 "fila": 11,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"ernestinagarza67": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ernestinagarza67",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"ernestobrayanarguelles": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ernestobrayanarguelles",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "es_karanflow": {
@@ -2543,6 +4231,38 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"eudisgc": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=eudisgc",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"eurovisionxeclipse": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=eurovisionxeclipse",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"eva.barrios.395": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=eva.barrios.395",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"exequieel_.29": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=exequieel_.29",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "exoticmedia.studio": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=exoticmedia.studio",
@@ -2575,6 +4295,22 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"fabian_lambert07": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=fabian_lambert07",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"fabian_prosito": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=fabian_prosito",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "fabiel170": {
 "cartel": false,
 "enlace_muneco": null,
@@ -2582,6 +4318,14 @@
 "fila": 17,
 "puesto": "asiento",
 "ya_tiene_muneco": false
+},
+"fabri__244": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=fabri__244",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
 },
 "fabriciomoisesveramendi": {
 "cartel": false,
@@ -2639,6 +4383,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"fede_chito": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=fede_chito",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "feli.aguilera": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=feli.aguilera",
@@ -2647,12 +4399,92 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"feli_lo32": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=feli_lo32",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "feliippee007": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=feliippee007",
 "etiquetas": 0,
 "fila": 3,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"felipe2011580": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=felipe2011580",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"felipe215479": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=felipe215479",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"felix.barrera.446825": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=felix.barrera.446825",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"felixrlandopreensaquintanel": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=felixrlandopreensaquintanel",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"ferez_hd": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ferez_hd",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"fernando.fx.tpt": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=fernando.fx.tpt",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"florentinosmith5": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=florentinosmith5",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"fouzia.taoufyq": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=fouzia.taoufyq",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"fraamiitaa": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=fraamiitaa",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "frainielhernandez": {
@@ -2679,6 +4511,22 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"franccescosanti": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=franccescosanti",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"franciamontilla": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=franciamontilla",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "franciscojeremisa": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=franciscojeremisa",
@@ -2687,12 +4535,52 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"franciscomartinesurena": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=franciscomartinesurena",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "franco14033": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=franco14033",
 "etiquetas": 0,
 "fila": 2,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"francobboy1": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=francobboy1",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"frankernestomelo": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=frankernestomelo",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"franquilmes78": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=franquilmes78",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"fransiscozmariana": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=fransiscozmariana",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "free___349": {
@@ -2709,6 +4597,22 @@
 "etiquetas": 0,
 "fila": null,
 "puesto": "banda (experto en trompeta) confirmado",
+"ya_tiene_muneco": true
+},
+"frxn_flores33": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=frxn_flores33",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"fuentesfelix_": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=fuentesfelix_",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "futurerockstaar": {
@@ -2748,7 +4652,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=gabriel_829445",
 "etiquetas": 0,
 "fila": 8,
-"puesto": "pidió banda (ser la banda): le falta comentar una frase de la canción",
+"puesto": "pidió banda (ser la banda)",
 "ya_tiene_muneco": true
 },
 "gabrielaorozcocortes": {
@@ -2767,12 +4671,60 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"gaby_1407_": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=gaby_1407_",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "gael.laboca": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=gael.laboca",
 "etiquetas": 0,
 "fila": 3,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"gaelchdz": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=gaelchdz",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"gagliardovitto": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=gagliardovitto",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"galdameztobar": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=galdameztobar",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"game_breaker8": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=game_breaker8",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"gamerpro308_yt": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=gamerpro308_yt",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "ganstart88": {
@@ -2791,6 +4743,14 @@
 "puesto": "pidió VIP: lleva 0 de 5 etiquetas",
 "ya_tiene_muneco": true
 },
+"garsiavasquezbenjamin": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=garsiavasquezbenjamin",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "gaspar26584": {
 "cartel": true,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=gaspar26584",
@@ -2807,6 +4767,30 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"gaxyledez_": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=gaxyledez_",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"gbjorge__555": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=gbjorge__555",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"gecko": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=gecko",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "gecko.16583449": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=gecko.16583449",
@@ -2815,12 +4799,20 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"gelogracia900": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=gelogracia900",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "gena20_15": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=gena20_15",
 "etiquetas": 0,
 "fila": 5,
-"puesto": "pidió banda (guitarrista): le falta comentar una frase de la canción",
+"puesto": "pidió banda (guitarrista)",
 "ya_tiene_muneco": true
 },
 "genesisvalentinajara": {
@@ -2831,12 +4823,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"geno_1720": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=geno_1720",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "georgm18": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=georgm18",
 "etiquetas": 0,
 "fila": 3,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"geral___mdz": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=geral___mdz",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "gerardojaureguimel": {
@@ -2861,6 +4869,14 @@
 "etiquetas": 0,
 "fila": 14,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"geurvilmaria": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=geurvilmaria",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "gg5943667": {
@@ -2911,6 +4927,14 @@
 "puesto": "pidió VIP: lleva 0 de 5 etiquetas; pidió VIP Supremo: lleva 0 de 10 etiquetas (lo demás lo confirma Randy)",
 "ya_tiene_muneco": true
 },
+"gimnasia_center_mov": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=gimnasia_center_mov",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "gina_torrecillas": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=gina_torrecillas",
@@ -2927,6 +4951,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"giovannyestrada15": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=giovannyestrada15",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "gjoseemir": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=gjoseemir",
@@ -2941,6 +4973,14 @@
 "etiquetas": 0,
 "fila": 2,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"glow1_710": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=glow1_710",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "gmfdez87": {
@@ -2975,6 +5015,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"gretchen_padill": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=gretchen_padill",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "grimo.nn": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=grimo.nn",
@@ -2991,12 +5039,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"gume35": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=gume35",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "gustavex.mp4": {
 "cartel": true,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=gustavex.mp4",
 "etiquetas": 0,
 "fila": 12,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"guzman7x": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=guzman7x",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "gxrdx_1616": {
@@ -3023,12 +5087,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"haboubahajji": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=haboubahajji",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "haken.alan": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=haken.alan",
 "etiquetas": 0,
 "fila": 16,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"hamster.2428559": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=hamster.2428559",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "hanoioliva_": {
@@ -3055,12 +5135,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"heart_xxkos": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=heart_xxkos",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"hectorcerino855": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=hectorcerino855",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "hectorch_92": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=hectorch_92",
 "etiquetas": 0,
 "fila": 8,
-"puesto": "pidió banda (tocar en el bass): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar en el bass)",
 "ya_tiene_muneco": true
 },
 "hectrodaniellopezarias": {
@@ -3111,6 +5207,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"hernandez_campo.7": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=hernandez_campo.7",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "herreraanthony80": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=herreraanthony80",
@@ -3135,12 +5239,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"hidalgo_milesgg": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=hidalgo_milesgg",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "hierro_cuba": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=hierro_cuba",
 "etiquetas": 0,
 "fila": 1,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"hugo_ascv": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=hugo_ascv",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "hxrnan_mxto": {
@@ -3167,12 +5287,36 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"iam_vargas19": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=iam_vargas19",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "iamjoseejr4": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=iamjoseejr4",
 "etiquetas": 0,
 "fila": 7,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"iamkeylaa2026": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=iamkeylaa2026",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"ian_diaz_5642": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ian_diaz_5642",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "iangaritabadilla21": {
@@ -3196,7 +5340,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=ianz_santi",
 "etiquetas": 0,
 "fila": 13,
-"puesto": "pidió banda (tocar acordeon de teclas): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar acordeon de teclas)",
 "ya_tiene_muneco": true
 },
 "icono_gomero": {
@@ -3215,6 +5359,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"ifellpretty": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ifellpretty",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "ign63c": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=ign63c",
@@ -3223,12 +5375,20 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"ignacidallaro": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ignacidallaro",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "ignaciomedinagomez": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=ignaciomedinagomez",
 "etiquetas": 0,
 "fila": 8,
-"puesto": "pidió banda (toco la batería): le falta comentar una frase de la canción",
+"puesto": "pidió banda (toco la batería)",
 "ya_tiene_muneco": true
 },
 "iisaiasmarquezz": {
@@ -3271,6 +5431,22 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"inda.yanitrujillo": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=inda.yanitrujillo",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"inesitaborrego": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=inesitaborrego",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "inesn.aula": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=inesn.aula",
@@ -3279,12 +5455,28 @@
 "puesto": "pidió VIP: lleva 0 de 5 etiquetas",
 "ya_tiene_muneco": true
 },
+"instanmagic_fotoalinstante": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=instanmagic_fotoalinstante",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "iosu010": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=iosu010",
 "etiquetas": 0,
 "fila": 8,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"isaac171962": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=isaac171962",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "isaac_navarro069": {
@@ -3301,6 +5493,30 @@
 "etiquetas": 0,
 "fila": 6,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"isabellasuazamarin": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=isabellasuazamarin",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"isabelpascualaldabo": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=isabelpascualaldabo",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"isaia.lopez.946": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=isaia.lopez.946",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "isaias_enloscontroles": {
@@ -3332,7 +5548,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=isidrozrg",
 "etiquetas": 0,
 "fila": 5,
-"puesto": "pidió banda (tocar guitarra): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar guitarra)",
 "ya_tiene_muneco": true
 },
 "ismael_211206": {
@@ -3341,6 +5557,30 @@
 "etiquetas": 1,
 "fila": null,
 "puesto": "baile con su pareja @gretchen_padill confirmado",
+"ya_tiene_muneco": true
+},
+"isra_padilla_oficial": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=isra_padilla_oficial",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"ist_xavierxv": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ist_xavierxv",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"isuu1015": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=isuu1015",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "italykike_91": {
@@ -3391,6 +5631,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"itsthony___": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=itsthony___",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "itxtadeo99": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=itxtadeo99",
@@ -3404,7 +5652,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=itz_.lxiz",
 "etiquetas": 0,
 "fila": 13,
-"puesto": "pidió banda (ser el baterista): le falta comentar una frase de la canción",
+"puesto": "pidió banda (ser el baterista)",
 "ya_tiene_muneco": true
 },
 "itz_gaelm": {
@@ -3428,7 +5676,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=itzelyaadini_013",
 "etiquetas": 0,
 "fila": 3,
-"puesto": "pidió banda (tocar un instrumento): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar un instrumento)",
 "ya_tiene_muneco": true
 },
 "iv__________.08": {
@@ -3453,6 +5701,14 @@
 "etiquetas": 0,
 "fila": 16,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"ivaneugenio7": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ivaneugenio7",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "ivanmosqueda4": {
@@ -3487,6 +5743,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"j3susito.__": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=j3susito.__",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "j4sepx": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=j4sepx",
@@ -3508,8 +5772,24 @@
 "enlace_muneco": null,
 "etiquetas": 0,
 "fila": 17,
-"puesto": "pidió banda (batería (lleno)): le falta comentar una frase de la canción",
+"puesto": "pidió banda (batería (lleno))",
 "ya_tiene_muneco": false
+},
+"jabichota": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jabichota",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"jack1738370": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jack1738370",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
 },
 "jacuindeteresa": {
 "cartel": false,
@@ -3527,12 +5807,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"jaibas_2_0_1_6": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jaibas_2_0_1_6",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "jailerdavidmarino": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=jailerdavidmarino",
 "etiquetas": 1,
 "fila": null,
 "puesto": "baile con su pareja @mxchi_xr79 confirmado",
+"ya_tiene_muneco": true
+},
+"jaimeirammagallantorres": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jaimeirammagallantorres",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "jairo.lopex": {
@@ -3559,12 +5855,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"janpd78": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=janpd78",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "javielito_pa_q_sepa": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=javielito_pa_q_sepa",
 "etiquetas": 0,
 "fila": 15,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"javier484125": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=javier484125",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "javier_romero.7": {
@@ -3575,12 +5887,36 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"javisanbau": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=javisanbau",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"jay_pantojaa": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jay_pantojaa",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "jbido1213": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=jbido1213",
 "etiquetas": 0,
 "fila": 2,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"jchi48y": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jchi48y",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "jeandiel_pr": {
@@ -3596,7 +5932,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=jeanir8",
 "etiquetas": 0,
 "fila": 8,
-"puesto": "pidió banda (tocar la guitarra): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar la guitarra)",
 "ya_tiene_muneco": true
 },
 "jeidenperdomorincon03": {
@@ -3605,6 +5941,14 @@
 "etiquetas": 0,
 "fila": 6,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"jellyfish.5399833": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jellyfish.5399833",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "jemmanuel.sanchez": {
@@ -3623,12 +5967,36 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"jere.lu1": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jere.lu1",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "jere.mias8362": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=jere.mias8362",
 "etiquetas": 0,
 "fila": 1,
 "puesto": "pidió equipo (sonidista de las luces): le falta comentar una frase de la canción",
+"ya_tiene_muneco": true
+},
+"jere_my7400": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jere_my7400",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"jeremi_suarez_jerez07": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jeremi_suarez_jerez07",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "jeresandoval522": {
@@ -3647,12 +6015,44 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"jeronimo_682777": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jeronimo_682777",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"jesus18vega": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jesus18vega",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"jesus706_": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jesus706_",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "jesus_ry34": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=jesus_ry34",
 "etiquetas": 0,
 "fila": 15,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"jesusemmanuelutrera": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jesusemmanuelutrera",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "jesusvelasquez723": {
@@ -3687,6 +6087,22 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"jh262056": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jh262056",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"jhdz7898": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jhdz7898",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "jheidel_santana_": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=jheidel_santana_",
@@ -3709,6 +6125,22 @@
 "etiquetas": 0,
 "fila": 12,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"jhonymateorodrigues": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jhonymateorodrigues",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"jikushikashitemo": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jikushikashitemo",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "jiulianna10": {
@@ -3735,12 +6167,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"joacoblancosilva": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=joacoblancosilva",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "joadmerinoo": {
 "cartel": true,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=joadmerinoo",
 "etiquetas": 0,
 "fila": null,
 "puesto": "banda (tocar la tarolaa) confirmado",
+"ya_tiene_muneco": true
+},
+"joao_andre_jf": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=joao_andre_jf",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "joaqui_7567": {
@@ -3772,7 +6220,15 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=johan_dxniel",
 "etiquetas": 0,
 "fila": 12,
-"puesto": "pidió banda (ser baterista): le falta comentar una frase de la canción",
+"puesto": "pidió banda (ser baterista)",
+"ya_tiene_muneco": true
+},
+"johan_vx26": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=johan_vx26",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "johel_yompe": {
@@ -3781,6 +6237,22 @@
 "etiquetas": 0,
 "fila": null,
 "puesto": "equipo (sonidista) confirmado",
+"ya_tiene_muneco": true
+},
+"john_.vacano": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=john_.vacano",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"johs7808": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=johs7808",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "jonael559": {
@@ -3815,12 +6287,52 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"jonathan409w": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jonathan409w",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"jonathan_aguilar72849": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jonathan_aguilar72849",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"jonathancotsbermudez": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jonathancotsbermudez",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "jonathangrijalvareyes": {
 "cartel": true,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=jonathangrijalvareyes",
 "etiquetas": 0,
 "fila": 16,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"jonieel.hndz": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jonieel.hndz",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"jordan25055": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jordan25055",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "jorge102531": {
@@ -3831,12 +6343,36 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"jorge_omg03": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jorge_omg03",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"jorgecarrionortiz": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jorgecarrionortiz",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "jorgito_tomas24": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=jorgito_tomas24",
 "etiquetas": 0,
 "fila": 8,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"josapedroza": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=josapedroza",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "jose1721162": {
@@ -3863,12 +6399,76 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"joseantoniofigueroaarauz": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=joseantoniofigueroaarauz",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"josebcristobalmorales": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=josebcristobalmorales",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"joseluispootbe": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=joseluispootbe",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "josem_anuel2318": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=josem_anuel2318",
 "etiquetas": 0,
 "fila": 16,
-"puesto": "pidió banda (tocar el cajón): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar el cajón)",
+"ya_tiene_muneco": true
+},
+"joseph231771": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=joseph231771",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"joshuaheredia670": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=joshuaheredia670",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"joshuajafeth5": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=joshuajafeth5",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"josias_m_2013": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=josias_m_2013",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"josmaremil": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=josmaremil",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "josu___e27": {
@@ -3901,6 +6501,14 @@
 "etiquetas": 0,
 "fila": 12,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"jota_ov": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jota_ov",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "joyxdboy": {
@@ -3943,6 +6551,30 @@
 "puesto": "baile con su pareja @dy1937004 confirmado",
 "ya_tiene_muneco": true
 },
+"juan__2__9": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=juan__2__9",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"juan_martinez817": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=juan_martinez817",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"juan_q_v_11": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=juan_q_v_11",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "juan_sol_2007": {
 "cartel": true,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=juan_sol_2007",
@@ -3965,6 +6597,14 @@
 "etiquetas": 0,
 "fila": 11,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"juangui8789": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=juangui8789",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "juanii__das11": {
@@ -3997,6 +6637,46 @@
 "etiquetas": 0,
 "fila": 8,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"juanyairbautista": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=juanyairbautista",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"jucalemar": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jucalemar",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"julian125153": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=julian125153",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"julian_mk__777": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=julian_mk__777",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"julian_ssj45": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=julian_ssj45",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "juliethcamila311": {
@@ -4039,6 +6719,22 @@
 "puesto": "asiento",
 "ya_tiene_muneco": false
 },
+"juxpillx_111": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=juxpillx_111",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"jx_white13": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jx_white13",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "jxanwya__": {
 "cartel": true,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=jxanwya__",
@@ -4055,6 +6751,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"jxnn.gfz": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=jxnn.gfz",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "k3niazx": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=k3niazx",
@@ -4063,12 +6767,52 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"k__y_z": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=k__y_z",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"kaerona123": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=kaerona123",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"kaitoshi_280": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=kaitoshi_280",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"kakijr2026": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=kakijr2026",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "kamyyy72": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=kamyyy72",
 "etiquetas": 0,
 "fila": 13,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"kangaroo.6461243": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=kangaroo.6461243",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "karen_funez_333": {
@@ -4119,12 +6863,20 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"kei.ner34": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=kei.ner34",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "keniamtorres7": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=keniamtorres7",
 "etiquetas": 0,
 "fila": 4,
-"puesto": "pidió banda (tocar batería): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar batería)",
 "ya_tiene_muneco": true
 },
 "kenzytashahina": {
@@ -4151,6 +6903,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"kevin1_572": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=kevin1_572",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "kevin5313920": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=kevin5313920",
@@ -4159,12 +6919,60 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"kevin5669622": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=kevin5669622",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"kevinmerazalvarado": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=kevinmerazalvarado",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"kevinniii06": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=kevinniii06",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"kevinsolano07": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=kevinsolano07",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "kevinsosasoriano": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=kevinsosasoriano",
 "etiquetas": 0,
 "fila": 6,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"keyla_diaz457": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=keyla_diaz457",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"keyliskarlett": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=keyliskarlett",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "keysim4534": {
@@ -4182,6 +6990,14 @@
 "fila": 17,
 "puesto": "asiento",
 "ya_tiene_muneco": false
+},
+"ki_renatoo": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ki_renatoo",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
 },
 "kia_martina.pra": {
 "cartel": false,
@@ -4215,12 +7031,68 @@
 "puesto": "pidió bailar: le falta etiquetar a su pareja",
 "ya_tiene_muneco": true
 },
+"kristina_ramire": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=kristina_ramire",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"kuki_astro": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=kuki_astro",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"kwataras": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=kwataras",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"kyrios.sm": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=kyrios.sm",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "l.s.e__17": {
 "cartel": true,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=l.s.e__17",
 "etiquetas": 0,
 "fila": 7,
 "puesto": "pidió VIP: lleva 0 de 5 etiquetas",
+"ya_tiene_muneco": true
+},
+"la.azquez.67.7": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=la.azquez.67.7",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"lacabrita_2.0": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=lacabrita_2.0",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"lacruzelda": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=lacruzelda",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "lafamadeloscaballos_priv14": {
@@ -4247,6 +7119,14 @@
 "puesto": "pidió VIP: lleva 0 de 5 etiquetas",
 "ya_tiene_muneco": true
 },
+"lasaventurasnicotoy": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=lasaventurasnicotoy",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "laura_g_95_": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=laura_g_95_",
@@ -4261,6 +7141,22 @@
 "etiquetas": 0,
 "fila": 1,
 "puesto": "pidió VIP: lleva 0 de 5 etiquetas",
+"ya_tiene_muneco": true
+},
+"lautaro.jubin": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=lautaro.jubin",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"lazaroortega03": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=lazaroortega03",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "ld_ananaya": {
@@ -4287,12 +7183,20 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"leno.1af": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=leno.1af",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "leo_pex_ekisde": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=leo_pex_ekisde",
 "etiquetas": 0,
 "fila": 10,
-"puesto": "pidió banda (tocar sintetizador): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar sintetizador)",
 "ya_tiene_muneco": true
 },
 "leomachucavaldez2026": {
@@ -4301,6 +7205,14 @@
 "etiquetas": 0,
 "fila": 5,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"leomessi_3016": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=leomessi_3016",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "leonard917494": {
@@ -4319,6 +7231,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"leonel30084": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=leonel30084",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "leoprogamer107yt": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=leoprogamer107yt",
@@ -4333,6 +7253,14 @@
 "etiquetas": 0,
 "fila": 2,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"leslilalak1213": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=leslilalak1213",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "lester.mrn": {
@@ -4351,12 +7279,44 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"liamora446": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=liamora446",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "libey.rodriguez": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=libey.rodriguez",
 "etiquetas": 0,
 "fila": 12,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"libreria_mundo_escolar_rivas": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=libreria_mundo_escolar_rivas",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"ligimedina": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ligimedina",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"lil6191708": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=lil6191708",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "lil_willms": {
@@ -4407,12 +7367,44 @@
 "puesto": "escenario con Los Elegidos confirmado",
 "ya_tiene_muneco": true
 },
+"lionelduarta": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=lionelduarta",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "lirian_2m": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=lirian_2m",
 "etiquetas": 0,
 "fila": 12,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"liset_ty3": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=liset_ty3",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"lit_jhosby": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=lit_jhosby",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"little_sofiapr": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=little_sofiapr",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "liz.laura09": {
@@ -4428,7 +7420,15 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=ljgl06",
 "etiquetas": 0,
 "fila": 1,
-"puesto": "pidió banda (tocar batería): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar batería)",
+"ya_tiene_muneco": true
+},
+"lobatin.priiv": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=lobatin.priiv",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "logan30134": {
@@ -4439,12 +7439,36 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"loispurity": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=loispurity",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"lopezjorgejavier17": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=lopezjorgejavier17",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "lopezliaflores": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=lopezliaflores",
 "etiquetas": 0,
 "fila": 7,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"lore531177": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=lore531177",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "lore_dr99": {
@@ -4461,6 +7485,30 @@
 "etiquetas": 0,
 "fila": 7,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"lorenzo619858": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=lorenzo619858",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"lorenzo65034": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=lorenzo65034",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"lorenzosantillan11": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=lorenzosantillan11",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "lowbikerd": {
@@ -4487,12 +7535,20 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"lucagarciasegura": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=lucagarciasegura",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "lucas12399800": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=lucas12399800",
 "etiquetas": 0,
 "fila": 15,
-"puesto": "pidió banda (tocar el bajo): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar el bajo)",
 "ya_tiene_muneco": true
 },
 "lucaschavezfernandez": {
@@ -4503,12 +7559,36 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"lucasjavierjm": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=lucasjavierjm",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "lucianabarrraza": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=lucianabarrraza",
 "etiquetas": 0,
 "fila": 10,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"lucianolinaresm": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=lucianolinaresm",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"lucianoyuniel": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=lucianoyuniel",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "luilli_mc": {
@@ -4519,12 +7599,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"luis_antoniovn": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=luis_antoniovn",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"luis_elantrax": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=luis_elantrax",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "luis_le_cuisinier": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=luis_le_cuisinier",
 "etiquetas": 0,
 "fila": 12,
-"puesto": "pidió banda (tocar tambores): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar tambores)",
 "ya_tiene_muneco": true
 },
 "luisamariahernandezcleto": {
@@ -4535,12 +7631,36 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"luisapoloproducer": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=luisapoloproducer",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"luisito_13325": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=luisito_13325",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "luisitohernandez1900": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=luisitohernandez1900",
 "etiquetas": 0,
 "fila": 3,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"luisitotrex": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=luisitotrex",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "luistremendo1": {
@@ -4557,6 +7677,14 @@
 "etiquetas": 0,
 "fila": 15,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"lukas_11_cabrera": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=lukas_11_cabrera",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "luna_57621": {
@@ -4580,7 +7708,39 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=luve_tc",
 "etiquetas": 0,
 "fila": 1,
-"puesto": "pidió banda (tocar la guitarra): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar la guitarra)",
+"ya_tiene_muneco": true
+},
+"luwi_12345": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=luwi_12345",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"luzbmg.21": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=luzbmg.21",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"m.v.o_08": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=m.v.o_08",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"m1l4n_s1nue": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=m1l4n_s1nue",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "m4y.atx_666": {
@@ -4597,6 +7757,14 @@
 "etiquetas": 0,
 "fila": 13,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"macos_antonio_34781": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=macos_antonio_34781",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "malbersysajaryfernandez": {
@@ -4671,12 +7839,20 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"marceloadriannavarrete": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=marceloadriannavarrete",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "marcoantoniodominguezriol": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=marcoantoniodominguezriol",
 "etiquetas": 0,
 "fila": 13,
-"puesto": "pidió banda (batería (lleno)): le falta comentar una frase de la canción",
+"puesto": "pidió banda (batería (lleno))",
 "ya_tiene_muneco": true
 },
 "marcosmedinaa.18": {
@@ -4685,6 +7861,14 @@
 "etiquetas": 0,
 "fila": 9,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"marcosst._.22": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=marcosst._.22",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "marcusodimas": {
@@ -4701,6 +7885,62 @@
 "etiquetas": 0,
 "fila": 7,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"maria2188elena": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=maria2188elena",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"mariacarlasuareztorres": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=mariacarlasuareztorres",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"mariacristinaarmenteros": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=mariacristinaarmenteros",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"mariana_priv5_": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=mariana_priv5_",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"marianaveleznuma": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=marianaveleznuma",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"mariangellabradorduque79": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=mariangellabradorduque79",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"marimartinezporta": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=marimartinezporta",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "mario_jose1417": {
@@ -4759,12 +7999,20 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"martii_clouse_": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=martii_clouse_",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "martin109473": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=martin109473",
 "etiquetas": 0,
 "fila": 3,
-"puesto": "pidió banda (tocar el bajo): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar el bajo)",
 "ya_tiene_muneco": true
 },
 "martinez.andrek": {
@@ -4775,12 +8023,28 @@
 "puesto": "escenario con Los Elegidos confirmado",
 "ya_tiene_muneco": true
 },
+"martinjohs338296": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=martinjohs338296",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "marvicky12": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=marvicky12",
 "etiquetas": 0,
 "fila": 11,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"maryleidavaldez": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=maryleidavaldez",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "master_youngblood": {
@@ -4791,6 +8055,14 @@
 "puesto": "pidió VIP: lleva 2 de 5 etiquetas",
 "ya_tiene_muneco": true
 },
+"mat.txxzz": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=mat.txxzz",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "mate0.r0driguez": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=mate0.r0driguez",
@@ -4799,12 +8071,60 @@
 "puesto": "VIP confirmado",
 "ya_tiene_muneco": true
 },
+"mate_jr_09": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=mate_jr_09",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"mate_rr2012": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=mate_rr2012",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"mateo03_diaz": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=mateo03_diaz",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"mateo_bosco451": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=mateo_bosco451",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "mateo_martinez_dj": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=mateo_martinez_dj",
 "etiquetas": 0,
 "fila": 15,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"mateus_v20": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=mateus_v20",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"matheosantiago127": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=matheosantiago127",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "mathi_alejandrobracho28": {
@@ -4823,12 +8143,44 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"matias.moreno6": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=matias.moreno6",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"matias42077": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=matias42077",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "matias77323": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=matias77323",
 "etiquetas": 0,
 "fila": 5,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"matiasarriola1030": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=matiasarriola1030",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"matiasbustoszamora": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=matiasbustoszamora",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "matiasjuega233": {
@@ -4871,6 +8223,22 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"maunico_pkxd": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=maunico_pkxd",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"mauricioantoniomezapino414": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=mauricioantoniomezapino414",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "maurlgan_": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=maurlgan_",
@@ -4901,6 +8269,30 @@
 "etiquetas": 0,
 "fila": 15,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"maximiliano.7812": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=maximiliano.7812",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"maximilianosaenzrios": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=maximilianosaenzrios",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"may250314": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=may250314",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "may395442": {
@@ -4948,7 +8340,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=melody_argueta.xm",
 "etiquetas": 0,
 "fila": 3,
-"puesto": "pidió banda (tocar violín): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar violín)",
 "ya_tiene_muneco": true
 },
 "melvin_0107_": {
@@ -4980,7 +8372,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=mercedesfiguereo95",
 "etiquetas": 0,
 "fila": 11,
-"puesto": "pidió banda (tocar guitarra): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar guitarra)",
 "ya_tiene_muneco": true
 },
 "mercy_garcias123": {
@@ -5004,7 +8396,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=mgr_luxx",
 "etiquetas": 0,
 "fila": 10,
-"puesto": "pidió banda (saxofonista): le falta comentar una frase de la canción",
+"puesto": "pidió banda (saxofonista)",
 "ya_tiene_muneco": true
 },
 "mia285448": {
@@ -5012,7 +8404,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=mia285448",
 "etiquetas": 0,
 "fila": 6,
-"puesto": "pidió banda (tocar batería): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar batería)",
 "ya_tiene_muneco": true
 },
 "miabella8515": {
@@ -5028,7 +8420,15 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=miamapv",
 "etiquetas": 0,
 "fila": 4,
-"puesto": "pidió banda (tocar guitarra): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar guitarra)",
+"ya_tiene_muneco": true
+},
+"michellesparedesa": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=michellesparedesa",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "michelmartinez6303": {
@@ -5036,7 +8436,15 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=michelmartinez6303",
 "etiquetas": 0,
 "fila": 10,
-"puesto": "pidió banda (tocar guitarra): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar guitarra)",
+"ya_tiene_muneco": true
+},
+"michiprimeyt": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=michiprimeyt",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "migllagurto": {
@@ -5047,6 +8455,14 @@
 "puesto": "VIP confirmado",
 "ya_tiene_muneco": true
 },
+"miguecuazzz": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=miguecuazzz",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "miguela_colina2024": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=miguela_colina2024",
@@ -5055,12 +8471,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"miguelangeleligiosaenz": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=miguelangeleligiosaenz",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "mikae_2004": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=mikae_2004",
 "etiquetas": 0,
 "fila": 16,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"milagros21493": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=milagros21493",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "milagros257389": {
@@ -5092,7 +8524,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=mimi._.yobo10",
 "etiquetas": 0,
 "fila": 7,
-"puesto": "pidió banda (tocar el piano): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar el piano)",
 "ya_tiene_muneco": true
 },
 "minikiwi_1": {
@@ -5111,6 +8543,14 @@
 "puesto": "pidió equipo (seguridad): le falta comentar una frase de la canción",
 "ya_tiene_muneco": true
 },
+"mirianpizamagallanez": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=mirianpizamagallanez",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "mirkanacato": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=mirkanacato",
@@ -5119,12 +8559,60 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"miro_ejea._": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=miro_ejea._",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "misaelchaleste": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=misaelchaleste",
 "etiquetas": 0,
 "fila": 3,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"miwuel21": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=miwuel21",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"miyamura_vr": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=miyamura_vr",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"mj_jkkkk47": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=mj_jkkkk47",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"mmercedesdelacaridad": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=mmercedesdelacaridad",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"mmjhcdjxddvbkkjh": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=mmjhcdjxddvbkkjh",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "mnl___777": {
@@ -5140,7 +8628,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=mochi_pins_store",
 "etiquetas": 0,
 "fila": 8,
-"puesto": "pidió banda (ser el guitarrista): le falta comentar una frase de la canción",
+"puesto": "pidió banda (ser el guitarrista)",
 "ya_tiene_muneco": true
 },
 "mohamed144176": {
@@ -5151,12 +8639,36 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"mohamedalizaitoune": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=mohamedalizaitoune",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "moises647060": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=moises647060",
 "etiquetas": 0,
 "fila": 7,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"monterito2015": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=monterito2015",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"moralesmoralesnidia": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=moralesmoralesnidia",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "morenito_perez9": {
@@ -5172,7 +8684,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=mteo_xn67",
 "etiquetas": 0,
 "fila": 12,
-"puesto": "pidió banda (la batería): le falta comentar una frase de la canción",
+"puesto": "pidió banda (la batería)",
 "ya_tiene_muneco": true
 },
 "mulata_karla": {
@@ -5191,6 +8703,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"murciano26_k1": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=murciano26_k1",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "mustang79873": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=mustang79873",
@@ -5205,6 +8725,38 @@
 "etiquetas": 0,
 "fila": 3,
 "puesto": "pidió VIP: lleva 0 de 5 etiquetas",
+"ya_tiene_muneco": true
+},
+"mvtia_s65": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=mvtia_s65",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"mxaximiliano.10": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=mxaximiliano.10",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"mxchi_xr79": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=mxchi_xr79",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"myrianpanoluisa": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=myrianpanoluisa",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "nahu_sst": {
@@ -5229,6 +8781,14 @@
 "etiquetas": 0,
 "fila": 7,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"nata_ly2156": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=nata_ly2156",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "nathanosirisn": {
@@ -5263,6 +8823,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"neidysoliz": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=neidysoliz",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "nellyscuevas23": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=nellyscuevas23",
@@ -5277,6 +8845,22 @@
 "etiquetas": 0,
 "fila": 9,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"nhs67_0": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=nhs67_0",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"nic.ole8498": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=nic.ole8498",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "niche_fontx": {
@@ -5303,12 +8887,20 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"nicolealejandra559": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=nicolealejandra559",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "nix2.588": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=nix2.588",
 "etiquetas": 0,
 "fila": 4,
-"puesto": "pidió banda (tocar batería): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar batería)",
 "ya_tiene_muneco": true
 },
 "no134638": {
@@ -5335,6 +8927,30 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"nora.87346": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=nora.87346",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"norma_make50": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=norma_make50",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"not_fxrrr.7": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=not_fxrrr.7",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "noti_farandula_de_louisville": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=noti_farandula_de_louisville",
@@ -5357,6 +8973,22 @@
 "etiquetas": 0,
 "fila": 11,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"ntaczx.m": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ntaczx.m",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"nth_xx1": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=nth_xx1",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "nuenayor": {
@@ -5391,6 +9023,38 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"omai.makarim": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=omai.makarim",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"omar_nosoygay": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=omar_nosoygay",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"omaralejandrocabreracueto": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=omaralejandrocabreracueto",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"omarissabigneoficial_": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=omarissabigneoficial_",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "ori2_777": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=ori2_777",
@@ -5423,6 +9087,22 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"ortiz_asinomas09": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ortiz_asinomas09",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"oscar.aguirr": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=oscar.aguirr",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "osiito_03": {
 "cartel": true,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=osiito_03",
@@ -5444,7 +9124,31 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=osmar._.ga",
 "etiquetas": 0,
 "fila": 10,
-"puesto": "pidió banda (tocar batería): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar batería)",
+"ya_tiene_muneco": true
+},
+"osmin14009": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=osmin14009",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"oterito72": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=oterito72",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"ouladbulaich": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ouladbulaich",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "owen.monterrey": {
@@ -5453,6 +9157,38 @@
 "etiquetas": 0,
 "fila": 2,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"owen.olvera77": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=owen.olvera77",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"oyarce_tomas": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=oyarce_tomas",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"p3luuuch3": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=p3luuuch3",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"pablo10e7292y4913": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=pablo10e7292y4913",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "pablo42497": {
@@ -5469,6 +9205,22 @@
 "etiquetas": 0,
 "fila": 12,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"pablo_fishing_lacuarta": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=pablo_fishing_lacuarta",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"pablodaniel5626": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=pablodaniel5626",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "pablojesus4327": {
@@ -5503,6 +9255,14 @@
 "puesto": "pidió bailar: le falta etiquetar a su pareja",
 "ya_tiene_muneco": true
 },
+"pancontint": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=pancontint",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "paola1511": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=paola1511",
@@ -5532,7 +9292,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=paolx_.x",
 "etiquetas": 0,
 "fila": 13,
-"puesto": "pidió banda (batería (lleno)): le falta comentar una frase de la canción",
+"puesto": "pidió banda (batería (lleno))",
 "ya_tiene_muneco": true
 },
 "papito_7771": {
@@ -5543,12 +9303,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"patriciarosanadiaz": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=patriciarosanadiaz",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "patrickcruzsantana": {
 "cartel": true,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=patrickcruzsantana",
 "etiquetas": 0,
 "fila": 3,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"patrickvelasquezcastillo": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=patrickvelasquezcastillo",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "patroncitalorenita": {
@@ -5591,6 +9367,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"pedro.vigevani18": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=pedro.vigevani18",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "pedro_rodriguez.2015": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=pedro_rodriguez.2015",
@@ -5605,6 +9389,14 @@
 "etiquetas": 0,
 "fila": 4,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"pekkaxd5346": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=pekkaxd5346",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "pepe4528pwd": {
@@ -5623,12 +9415,52 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"perezjanierinfante": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=perezjanierinfante",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "pilicortesmakeup": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=pilicortesmakeup",
 "etiquetas": 0,
 "fila": 4,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"pinaaaaaaa4": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=pinaaaaaaa4",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"pipey_president": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=pipey_president",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"pipi80897": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=pipi80897",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"pistachixd1": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=pistachixd1",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "pmp___rich94": {
@@ -5647,6 +9479,14 @@
 "puesto": "VIP confirmado",
 "ya_tiene_muneco": true
 },
+"poleo_22": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=poleo_22",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "pongo__alokentucueta.ff": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=pongo__alokentucueta.ff",
@@ -5655,12 +9495,28 @@
 "puesto": "pidió bailar: le falta etiquetar a su pareja",
 "ya_tiene_muneco": true
 },
+"pp_bassoficial": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=pp_bassoficial",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"prime_rahma7": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=prime_rahma7",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "priu33": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=priu33",
 "etiquetas": 0,
 "fila": 3,
-"puesto": "pidió banda (guitarrista): le falta comentar una frase de la canción",
+"puesto": "pidió banda (guitarrista)",
 "ya_tiene_muneco": true
 },
 "priv_enrique.18": {
@@ -5703,12 +9559,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"psaaydko": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=psaaydko",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "puka_cacerex": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=puka_cacerex",
 "etiquetas": 0,
 "fila": 8,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"qjbwi1": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=qjbwi1",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "qljafet": {
@@ -5741,6 +9613,14 @@
 "etiquetas": 0,
 "fila": 8,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"rafa23_541": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=rafa23_541",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "ramces_xd": {
@@ -5783,6 +9663,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"rangelsebastiangarcia": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=rangelsebastiangarcia",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "raquelreyes0789": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=raquelreyes0789",
@@ -5815,12 +9703,52 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"remediosyader": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=remediosyader",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "rena.rusa_2015": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=rena.rusa_2015",
 "etiquetas": 0,
 "fila": 9,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"renatagiammaria": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=renatagiammaria",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"renzo97348": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=renzo97348",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"rey_777r": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=rey_777r",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"reyesramirezandres": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=reyesramirezandres",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "reynaldopierre64": {
@@ -5839,12 +9767,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"ricardo_3674839393": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ricardo_3674839393",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "richorded898": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=richorded898",
 "etiquetas": 0,
 "fila": 4,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"rivasjordan548": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=rivasjordan548",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "river_ajairo": {
@@ -5868,7 +9812,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=roc.iobt",
 "etiquetas": 0,
 "fila": 11,
-"puesto": "pidió banda (tocar batería y cantar): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar batería y cantar)",
 "ya_tiene_muneco": true
 },
 "rochi.ruiz17": {
@@ -5878,6 +9822,30 @@
 "fila": null,
 "puesto": "pidió bailar: le falta etiquetar a su pareja",
 "ya_tiene_muneco": false
+},
+"rocket0v0": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=rocket0v0",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"rodri_m005": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=rodri_m005",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"rodrigotitos_": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=rodrigotitos_",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
 },
 "rodrigoydoyaga98": {
 "cartel": false,
@@ -5895,6 +9863,22 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"rola2007xd": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=rola2007xd",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"ronald_col09": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ronald_col09",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "rosaleessss": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=rosaleessss",
@@ -5909,6 +9893,30 @@
 "etiquetas": 0,
 "fila": 7,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"rosannaareliscuevas": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=rosannaareliscuevas",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"rositaam_4": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=rositaam_4",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"roxcelysleal": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=roxcelysleal",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "rqkzzz": {
@@ -5940,7 +9948,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=rz.pheles",
 "etiquetas": 0,
 "fila": 12,
-"puesto": "pidió banda (tocar el bajo): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar el bajo)",
 "ya_tiene_muneco": true
 },
 "s.s.xmx": {
@@ -5959,12 +9967,44 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"s_ucles20000": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=s_ucles20000",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"sadyan510": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=sadyan510",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"said.jeremias": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=said.jeremias",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "said_mfps_": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=said_mfps_",
 "etiquetas": 0,
 "fila": 5,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"saidemiliano18": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=saidemiliano18",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "salas_yusmelis": {
@@ -6007,12 +10047,36 @@
 "puesto": "asiento",
 "ya_tiene_muneco": false
 },
+"sam_nv24": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=sam_nv24",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "samar_morenita": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=samar_morenita",
 "etiquetas": 0,
 "fila": 4,
 "puesto": "pidió VIP: lleva 0 de 5 etiquetas; pidió VIP Supremo: lleva 0 de 10 etiquetas (lo demás lo confirma Randy)",
+"ya_tiene_muneco": true
+},
+"samuel_nacho_10": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=samuel_nacho_10",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"samueljulianperez": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=samueljulianperez",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "samy_20152": {
@@ -6039,6 +10103,14 @@
 "puesto": "pidió VIP: lleva 0 de 5 etiquetas",
 "ya_tiene_muneco": true
 },
+"santi.gonzalez1710": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=santi.gonzalez1710",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "santi_paz76": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=santi_paz76",
@@ -6055,6 +10127,22 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"santiagoo.0712": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=santiagoo.0712",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"santiagosaavedra428": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=santiagosaavedra428",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "santiagosanchez793": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=santiagosanchez793",
@@ -6063,12 +10151,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"santii_stenta12": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=santii_stenta12",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "santimejia_0817": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=santimejia_0817",
 "etiquetas": 0,
 "fila": 8,
-"puesto": "pidió banda (tocar la guitarra): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar la guitarra)",
+"ya_tiene_muneco": true
+},
+"santino_acosta99": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=santino_acosta99",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "santinobrestt": {
@@ -6079,12 +10183,20 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"santy_ramirez57": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=santy_ramirez57",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "saraicha23": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=saraicha23",
 "etiquetas": 0,
 "fila": 3,
-"puesto": "pidió banda (decir una parte para la canción): le falta comentar una frase de la canción",
+"puesto": "pidió banda (decir una parte para la canción)",
 "ya_tiene_muneco": true
 },
 "sarpadito_2026": {
@@ -6103,12 +10215,20 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"scarletth_67": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=scarletth_67",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "searaanthony93": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=searaanthony93",
 "etiquetas": 0,
 "fila": 12,
-"puesto": "pidió banda (tocar guitarra): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar guitarra)",
 "ya_tiene_muneco": true
 },
 "seba_gsas": {
@@ -6127,12 +10247,20 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"sebastian26859": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=sebastian26859",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "sebastianvinolo": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=sebastianvinolo",
 "etiquetas": 0,
 "fila": 12,
-"puesto": "pidió banda (tocar el bajo): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar el bajo)",
 "ya_tiene_muneco": true
 },
 "sebzxc__": {
@@ -6140,7 +10268,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=sebzxc__",
 "etiquetas": 0,
 "fila": 4,
-"puesto": "pidió banda (ser mejor amigo y llevar chica): le falta comentar una frase de la canción",
+"puesto": "pidió banda (ser mejor amigo y llevar chica)",
 "ya_tiene_muneco": true
 },
 "semi_chuy.ale": {
@@ -6159,6 +10287,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"sergiorealdiaz": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=sergiorealdiaz",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "sesar92037": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=sesar92037",
@@ -6175,6 +10311,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"sienna.madryn": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=sienna.madryn",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "simply.jisung_": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=simply.jisung_",
@@ -6189,6 +10333,30 @@
 "etiquetas": 0,
 "fila": 9,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"sisi_rouse": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=sisi_rouse",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"six_seven67_bro_respeta": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=six_seven67_bro_respeta",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"slopez_2013": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=slopez_2013",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "sntxs_anty": {
@@ -6231,6 +10399,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"sophiarobles893": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=sophiarobles893",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "soto.hakim": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=soto.hakim",
@@ -6255,6 +10431,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"soy_de_valenn": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=soy_de_valenn",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "soy_pia19": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=soy_pia19",
@@ -6268,7 +10452,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=soyfemboy_ms",
 "etiquetas": 0,
 "fila": 13,
-"puesto": "pidió banda (guitarra (lleno)): le falta comentar una frase de la canción",
+"puesto": "pidió banda (guitarra (lleno))",
 "ya_tiene_muneco": true
 },
 "soyfranquis": {
@@ -6287,6 +10471,38 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"soymike114": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=soymike114",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"soysuperrrnova": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=soysuperrrnova",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"spam_efra112": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=spam_efra112",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"spmcontrolandotv": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=spmcontrolandotv",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "sr.ovalles_": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=sr.ovalles_",
@@ -6301,6 +10517,22 @@
 "etiquetas": 0,
 "fila": 16,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"sr_vinas": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=sr_vinas",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"srthomascontreras44": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=srthomascontreras44",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "stanley_el_cobra": {
@@ -6335,12 +10567,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"stublenye": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=stublenye",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "sunraysluv": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=sunraysluv",
 "etiquetas": 1,
 "fila": 16,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"suso2_.0.0.7": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=suso2_.0.0.7",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "sxntiago048": {
@@ -6365,6 +10613,14 @@
 "etiquetas": 0,
 "fila": 9,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"ta.nia2911": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ta.nia2911",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "tadeo25013": {
@@ -6428,7 +10684,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=telvikawaiipistachin",
 "etiquetas": 0,
 "fila": 10,
-"puesto": "pidió banda (tocar piano y flauta): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar piano y flauta)",
 "ya_tiene_muneco": true
 },
 "the2bled": {
@@ -6453,6 +10709,14 @@
 "etiquetas": 0,
 "fila": 12,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"the_willz._": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=the_willz._",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "thian_bustos12": {
@@ -6511,6 +10775,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"tobi12bj": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=tobi12bj",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "tobias_391367": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=tobias_391367",
@@ -6525,6 +10797,14 @@
 "etiquetas": 0,
 "fila": 6,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"tomasskate": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=tomasskate",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "tomdecartoon": {
@@ -6591,6 +10871,22 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"turtle.17899692": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=turtle.17899692",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"txrrxs_180": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=txrrxs_180",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "ulises.17.ok": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=ulises.17.ok",
@@ -6639,12 +10935,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"user9191919000uwu": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=user9191919000uwu",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "usuariofueradelradar.65777": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=usuariofueradelradar.65777",
 "etiquetas": 0,
 "fila": 2,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"usuariol2390": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=usuariol2390",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "uziel_pablo1239": {
@@ -6687,6 +10999,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"vago.aesthetic7.7": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=vago.aesthetic7.7",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "val_ruiz888": {
 "cartel": true,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=val_ruiz888",
@@ -6703,12 +11023,36 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"vale.nalfonzo": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=vale.nalfonzo",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"valen_makx2013": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=valen_makx2013",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "valentinaparedesmejia": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=valentinaparedesmejia",
 "etiquetas": 0,
 "fila": 14,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"valeriaavalinak": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=valeriaavalinak",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "valientinasoy": {
@@ -6735,12 +11079,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"vazquezyurisneltrutie": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=vazquezyurisneltrutie",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "vcmc83": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=vcmc83",
 "etiquetas": 0,
 "fila": 15,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"vegettoblue508": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=vegettoblue508",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "velazquez.67.7": {
@@ -6799,6 +11159,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"victoralvarado6625": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=victoralvarado6625",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "victorgk37": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=victorgk37",
@@ -6821,6 +11189,22 @@
 "etiquetas": 0,
 "fila": 16,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"vilchez.bety": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=vilchez.bety",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"vilchezmarcelo53": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=vilchezmarcelo53",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "virnalisinarvaez": {
@@ -6911,12 +11295,28 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"willy25991": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=willy25991",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "wilmarstile": {
 "cartel": true,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=wilmarstile",
 "etiquetas": 0,
 "fila": null,
 "puesto": "banda (tocar la batería) confirmado",
+"ya_tiene_muneco": true
+},
+"wini_mr": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=wini_mr",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "wtf.jn46": {
@@ -6951,6 +11351,30 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"x.alessa.fx": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=x.alessa.fx",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"x_gerxldo_x": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=x_gerxldo_x",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"xangurosaltarin": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=xangurosaltarin",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "xavier02_507": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=xavier02_507",
@@ -6972,7 +11396,15 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=xlrxbxx",
 "etiquetas": 0,
 "fila": 8,
-"puesto": "pidió banda (tocar guitarra electrica): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar guitarra electrica)",
+"ya_tiene_muneco": true
+},
+"xt1z1an0": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=xt1z1an0",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "xtxmatte": {
@@ -6988,7 +11420,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=xv_andy_tz",
 "etiquetas": 0,
 "fila": 3,
-"puesto": "pidió banda (ser baterista): le falta comentar una frase de la canción",
+"puesto": "pidió banda (ser baterista)",
 "ya_tiene_muneco": true
 },
 "xx_s_777_x": {
@@ -7039,6 +11471,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"ya_saben_quien_404": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ya_saben_quien_404",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "yaanpedro": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=yaanpedro",
@@ -7063,6 +11503,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"yaelito_4ever": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=yaelito_4ever",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "yahel_ct77": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=yahel_ct77",
@@ -7076,7 +11524,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=yahir_saxt",
 "etiquetas": 0,
 "fila": 16,
-"puesto": "pidió banda (saxofonista que hace un solo): le falta comentar una frase de la canción",
+"puesto": "pidió banda (saxofonista que hace un solo)",
 "ya_tiene_muneco": true
 },
 "yailelflowinminente": {
@@ -7095,6 +11543,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"yaircg10": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=yaircg10",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "yaiselquerolhernandez": {
 "cartel": false,
 "enlace_muneco": null,
@@ -7102,6 +11558,30 @@
 "fila": 17,
 "puesto": "asiento",
 "ya_tiene_muneco": false
+},
+"yami240971": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=yami240971",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"yan_alex_oficial": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=yan_alex_oficial",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"yan_franco_4567": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=yan_franco_4567",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
 },
 "yaneidydelfinocobas": {
 "cartel": false,
@@ -7117,6 +11597,14 @@
 "etiquetas": 0,
 "fila": 13,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"yarima5705": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=yarima5705",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "yarito_artista": {
@@ -7143,6 +11631,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"yaunnerangel": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=yaunnerangel",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "yavalerialerusha": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=yavalerialerusha",
@@ -7151,12 +11647,20 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"ydsoccer_": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=ydsoccer_",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "ye.ni9627": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=ye.ni9627",
 "etiquetas": 0,
 "fila": 1,
-"puesto": "pidió banda (tocar guitarra): le falta comentar una frase de la canción",
+"puesto": "pidió banda (tocar guitarra)",
 "ya_tiene_muneco": true
 },
 "yef._x3": {
@@ -7175,12 +11679,36 @@
 "puesto": "pidió VIP: lleva 0 de 5 etiquetas",
 "ya_tiene_muneco": true
 },
+"yeilopez22": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=yeilopez22",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "yendrickromero": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=yendrickromero",
 "etiquetas": 0,
 "fila": 1,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"yerman._.r": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=yerman._.r",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"yesee_82": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=yesee_82",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "yicel4714": {
@@ -7244,7 +11772,7 @@
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=yoidroz",
 "etiquetas": 0,
 "fila": 14,
-"puesto": "pidió banda (segundo cantante): le falta comentar una frase de la canción",
+"puesto": "pidió banda (segundo cantante)",
 "ya_tiene_muneco": true
 },
 "yolo_fit__": {
@@ -7271,6 +11799,14 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"yoonchaeismybias22": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=yoonchaeismybias22",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "yordin5355": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=yordin5355",
@@ -7285,6 +11821,22 @@
 "etiquetas": 0,
 "fila": 5,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"yoselinresendiz908gmail.com8": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=yoselinresendiz908gmail.com8",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"yosh.ua28": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=yosh.ua28",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "yourfav_litzy": {
@@ -7309,6 +11861,30 @@
 "etiquetas": 0,
 "fila": 2,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"yurimasulbaran": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=yurimasulbaran",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"yurix_xx09": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=yurix_xx09",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"yusnielpenas": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=yusnielpenas",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "yuthiel_olguin1": {
@@ -7351,6 +11927,22 @@
 "puesto": "asiento; pidió VIP Supremo: lleva 0 de 10 etiquetas (lo demás lo confirma Randy)",
 "ya_tiene_muneco": true
 },
+"za4bby": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=za4bby",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"zahirfermin": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=zahirfermin",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "zaker23": {
 "cartel": true,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=zaker23",
@@ -7375,12 +11967,36 @@
 "puesto": "asiento",
 "ya_tiene_muneco": true
 },
+"zarouali.kada": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=zarouali.kada",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
+"zebra.336269": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=zebra.336269",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
+"ya_tiene_muneco": true
+},
 "zenz._.xd_": {
 "cartel": false,
 "enlace_muneco": "https://randypr0.github.io/lasala/?u=zenz._.xd_",
 "etiquetas": 0,
 "fila": 16,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"zero.grados.ky": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=zero.grados.ky",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 },
 "zoe_silvafierro": {
@@ -7397,6 +12013,14 @@
 "etiquetas": 0,
 "fila": 5,
 "puesto": "asiento",
+"ya_tiene_muneco": true
+},
+"zuni.luca": {
+"cartel": false,
+"enlace_muneco": "https://randypr0.github.io/lasala/?u=zuni.luca",
+"etiquetas": null,
+"fila": null,
+"puesto": "sale en la sala",
 "ya_tiene_muneco": true
 }
 }
