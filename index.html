@@ -142,6 +142,8 @@ const cargar = u => { try { return JSON.parse(localStorage.getItem('lasala:' + u
 
 fetch('fotos.json').then(r => r.json()).then(l => {
   usuarios = l;
+  const pedido = norm(new URLSearchParams(location.search).get('u') || '');   // enlace directo: ?u=usuario
+  if (usuarios.includes(pedido)) return elegir(pedido);
   let u = null;
   try { u = localStorage.getItem('lasala:ultimo'); } catch (e) {}
   // solo se reabre si la carga quedó a medias (volver de Spotify); si terminó, arranca limpia
